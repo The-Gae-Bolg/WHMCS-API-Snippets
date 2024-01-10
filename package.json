@@ -1,0 +1,31 @@
+{
+  "name": "whmcs-api-snippets",
+  "displayName": "WHMCS API Snippets",
+  "version": "0.0.1",
+  "description": "Snippets for WHMCS API in Visual Studio Code",
+  "publisher": "The-Gae-Bolg",
+  "repository": {
+    "type": "git",
+    "url": "",
+    "directory": ""
+  },
+  "license": "MIT",
+  "icon": "snippets/icon.png",
+  "keywords": [
+    "whmcs",
+    "api",
+    "snippets"
+  ],
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "categories": ["Snippets"],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "php",
+        "path": "./snippets/php.json"
+      }
+    ]
+  }
+}
