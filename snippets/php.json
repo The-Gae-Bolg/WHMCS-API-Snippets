@@ -1629,7 +1629,7 @@
     "description": "WHMCS API: Domain WHOIS Information"
   },
   "WHMCSAPIEncryptPassword": {
-    "prefix": "whmcsApi-EncryptPassword",
+    "prefix": "w-EncryptPassword",
     "body": [
       "$${1:ch} = curl_init();",
       "curl_setopt($${1:ch}, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
@@ -1653,7 +1653,7 @@
     "description": "WHMCS API: Encrypt Password"
   },
   "WHMCSAPIEndTaskTimer": {
-    "prefix": "whmcsApi-EndTaskTimer",
+    "prefix": "w-EndTaskTimer",
     "body": [
       "$${1:ch} = curl_init();",
       "curl_setopt($${1:ch}, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
@@ -1679,7 +1679,7 @@
     "description": "WHMCS API: End Task Timer"
   },
   "WHMCSAPIFraudOrder": {
-    "prefix": "whmcsApi-FraudOrder",
+    "prefix": "w-FraudOrder",
     "body": [
       "$${1:ch} = curl_init();",
       "curl_setopt($${1:ch}, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
@@ -1704,7 +1704,7 @@
     "description": "WHMCS API: Fraud Order"
   },
   "WHMCSAPIGenInvoices": {
-    "prefix": "whmcsApi-GenInvoices",
+    "prefix": "w-GenInvoices",
     "body": [
       "$${1:ch} = curl_init();",
       "curl_setopt($${1:ch}, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
@@ -1727,7 +1727,7 @@
     "description": "WHMCS API: Generate Invoices"
   },
   "WHMCSAPIGetActivityLog": {
-    "prefix": "whmcsApi-GetActivityLog",
+    "prefix": "w-GetActivityLog",
     "body": [
       "$${1:ch} = curl_init();",
       "curl_setopt($${1:ch}, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
@@ -1751,7 +1751,7 @@
     "description": "WHMCS API: Get Activity Log"
   },
   "WHMCSAPIGetAdminDetails": {
-    "prefix": "whmcsApi-GetAdminDetails",
+    "prefix": "w-GetAdminDetails",
     "body": [
       "$${1:ch} = curl_init();",
       "curl_setopt($${1:ch}, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
@@ -1774,7 +1774,7 @@
     "description": "WHMCS API: Get Admin Details"
   },
   "WHMCSAPIGetAdminUsers": {
-    "prefix": "whmcsApi-GetAdminUsers",
+    "prefix": "w-GetAdminUsers",
     "body": [
       "$${1:ch} = curl_init();",
       "curl_setopt($${1:ch}, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
@@ -1797,7 +1797,7 @@
     "description": "WHMCS API: Get Admin Users"
   },
   "WHMCSAPIGetAffiliates": {
-    "prefix": "whmcsApi-GetAffiliates",
+    "prefix": "w-GetAffiliates",
     "body": [
       "$${1:ch} = curl_init();",
       "curl_setopt($${1:ch}, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
@@ -1820,7 +1820,7 @@
     "description": "WHMCS API: Get Affiliates"
   },
   "WHMCSAPIGetAnnouncements": {
-    "prefix": "whmcsApi-GetAnnouncements",
+    "prefix": "w-GetAnnouncements",
     "body": [
       "$${1:ch} = curl_init();",
       "curl_setopt($${1:ch}, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
@@ -1843,7 +1843,7 @@
     "description": "WHMCS API: Get Announcements"
   },
   "WHMCSAPIGetAutomationLog": {
-    "prefix": "whmcsApi-GetAutomationLog",
+    "prefix": "w-GetAutomationLog",
     "body": [
       "$${1:ch} = curl_init();",
       "curl_setopt($${1:ch}, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
@@ -1869,7 +1869,7 @@
     "description": "WHMCS API: Get Automation Log"
   },
   "WHMCSAPIGetCancelledPackages": {
-    "prefix": "whmcsApi-GetCancelledPackages",
+    "prefix": "w-GetCancelledPackages",
     "body": [
       "$${1:ch} = curl_init();",
       "curl_setopt($${1:ch}, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
@@ -1892,7 +1892,7 @@
     "description": "WHMCS API: Get Cancelled Packages"
   },
   "WHMCSAPIGetClientGroups": {
-    "prefix": "whmcsApi-GetClientGroups",
+    "prefix": "w-GetClientGroups",
     "body": [
       "$${1:ch} = curl_init();",
       "curl_setopt($${1:ch}, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
@@ -1915,7 +1915,7 @@
     "description": "WHMCS API: Get Client Groups"
   },
   "WHMCSAPIGetClientPassword": {
-    "prefix": "whmcsApi-GetClientPassword",
+    "prefix": "w-GetClientPassword",
     "body": [
       "$${1:ch} = curl_init();",
       "curl_setopt($${1:ch}, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
@@ -1939,7 +1939,7 @@
     "description": "WHMCS API: Get Client Password"
   },
   "WHMCSAPIGetClients": {
-    "prefix": "whmcsApi-GetClients",
+    "prefix": "w-GetClients",
     "body": [
       "$${1:ch} = curl_init();",
       "curl_setopt($${1:ch}, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
@@ -1963,7 +1963,7 @@
     "description": "WHMCS API: Get Clients"
   },
   "WHMCSAPIGetClientsAddons": {
-    "prefix": "whmcsApi-GetClientsAddons",
+    "prefix": "w-GetClientsAddons",
     "body": [
       "$${1:ch} = curl_init();",
       "curl_setopt($${1:ch}, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
@@ -1987,7 +1987,7 @@
     "description": "WHMCS API: Get Clients Addons"
   },
   "WHMCSAPIGetClientsDetails": {
-    "prefix": "whmcsApi-GetClientsDetails",
+    "prefix": "w-GetClientsDetails",
     "body": [
       "$${1:ch} = curl_init();",
       "curl_setopt($${1:ch}, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
@@ -2012,7 +2012,7 @@
     "description": "WHMCS API: Get Clients Details"
   },
   "WHMCSAPIGetClientsDomains": {
-    "prefix": "whmcsApi-GetClientsDomains",
+    "prefix": "w-GetClientsDomains",
     "body": [
       "$${1:ch} = curl_init();",
       "curl_setopt($${1:ch}, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
@@ -2037,7 +2037,7 @@
     "description": "WHMCS API: Get Clients Domains"
   },
   "WHMCSAPIGetClientsProducts": {
-    "prefix": "whmcsApi-GetClientsProducts",
+    "prefix": "w-GetClientsProducts",
     "body": [
       "$${1:ch} = curl_init();",
       "curl_setopt($${1:ch}, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
@@ -2061,7 +2061,7 @@
     "description": "WHMCS API: Retrieve Products for a Specific Client"
   },
   "WHMCSAPIGetConfigurationValue": {
-    "prefix": "whmcsApi-GetConfigurationValue",
+    "prefix": "w-GetConfigurationValue",
     "body": [
       "$${1:ch} = curl_init();",
       "curl_setopt($${1:ch}, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
@@ -2085,7 +2085,7 @@
     "description": "Retrieve a specific configuration value using WHMCS API"
   },
   "WHMCSAPIGetContacts": {
-    "prefix": "whmcsApi-GetContacts",
+    "prefix": "w-GetContacts",
     "body": [
       "$${1:ch} = curl_init();",
       "curl_setopt($${1:ch}, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
@@ -2109,7 +2109,7 @@
     "description": "Retrieve contacts associated with a specific user using WHMCS API"
   },
   "WHMCSAPIGetCredits": {
-    "prefix": "whmcsApi-GetCredits",
+    "prefix": "w-GetCredits",
     "body": [
       "$${1:ch} = curl_init();",
       "curl_setopt($${1:ch}, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
@@ -2133,7 +2133,7 @@
     "description": "Retrieve credits for a specific client using WHMCS API"
   },
   "WHMCSAPIGetCurrencies": {
-    "prefix": "whmcsApi-GetCurrencies",
+    "prefix": "w-GetCurrencies",
     "body": [
       "$${1:ch} = curl_init();",
       "curl_setopt($${1:ch}, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
@@ -2156,7 +2156,7 @@
     "description": "Retrieve currencies using WHMCS API"
   },
   "WHMCSAPIGetEmailTemplates": {
-    "prefix": "whmcsApi-GetEmailTemplates",
+    "prefix": "w-GetEmailTemplates",
     "body": [
       "$${1:ch} = curl_init();",
       "curl_setopt($${1:ch}, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
@@ -2180,7 +2180,7 @@
     "description": "Get general email templates using WHMCS API"
   },
   "WHMCSAPIGetEmails": {
-    "prefix": "whmcsApi-GetEmails",
+    "prefix": "w-GetEmails",
     "body": [
       "$${1:ch} = curl_init();",
       "curl_setopt($${1:ch}, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
@@ -2205,7 +2205,7 @@
     "description": "Get emails for a client with a specific subject using WHMCS API"
   },
   "WHMCSAPIGetHealthStatus": {
-    "prefix": "whmcsApi-GetHealthStatus",
+    "prefix": "w-GetHealthStatus",
     "body": [
       "$${1:ch} = curl_init();",
       "curl_setopt($${1:ch}, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
@@ -2229,7 +2229,7 @@
     "description": "Get the health status using WHMCS API without fetching the status information"
   },
   "WHMCSAPIGetInvoice": {
-    "prefix": "whmcsApi-GetInvoice",
+    "prefix": "w-GetInvoice",
     "body": [
       "$${1:ch} = curl_init();",
       "curl_setopt($${1:ch}, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
@@ -2253,7 +2253,7 @@
     "description": "Get information about a specific invoice using WHMCS API"
   },
   "WHMCSAPIGetInvoices": {
-    "prefix": "whmcsApi-GetInvoices",
+    "prefix": "w-GetInvoices",
     "body": [
       "$${1:ch} = curl_init();",
       "curl_setopt($${1:ch}, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
@@ -2278,7 +2278,7 @@
     "description": "Get invoices for a specific client using WHMCS API"
   },
   "WHMCSAPIGetModuleConfigParams": {
-    "prefix": "whmcsApi-GetModuleConfigParams",
+    "prefix": "w-GetModuleConfigParams",
     "body": [
       "$${1:ch} = curl_init();",
       "curl_setopt($${1:ch}, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
@@ -2303,7 +2303,7 @@
     "description": "Get configuration parameters for a specific module (e.g., gateway) in WHMCS API"
   },
   "WHMCSAPIGetModuleQueue": {
-    "prefix": "whmcsApi-GetModuleQueue",
+    "prefix": "w-GetModuleQueue",
     "body": [
       "$${1:ch} = curl_init();",
       "curl_setopt($${1:ch}, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
@@ -2328,7 +2328,7 @@
     "description": "Get module queue for a specific service type and module in WHMCS API"
   },
   "WHMCSAPIGetOrderStatuses": {
-    "prefix": "whmcsApi-GetOrderStatuses",
+    "prefix": "w-GetOrderStatuses",
     "body": [
       "$${1:ch} = curl_init();",
       "curl_setopt($${1:ch}, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
@@ -2351,7 +2351,7 @@
     "description": "Get order statuses in WHMCS API"
   },
   "WHMCSAPIGetOrders": {
-    "prefix": "whmcsApi-GetOrders",
+    "prefix": "w-GetOrders",
     "body": [
       "$${1:ch} = curl_init();",
       "curl_setopt($${1:ch}, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
@@ -2375,7 +2375,7 @@
     "description": "Get orders in WHMCS API"
   },
   "WHMCSAPIGetPayMethods": {
-    "prefix": "whmcsApi-GetPayMethods",
+    "prefix": "w-GetPayMethods",
     "body": [
       "$${1:ch} = curl_init();",
       "curl_setopt($${1:ch}, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
@@ -2399,7 +2399,7 @@
     "description": "Get payment methods for a client in WHMCS API"
   },
   "WHMCSAPIGetPermissionsList": {
-    "prefix": "whmcsApi-GetPermissionsList",
+    "prefix": "w-GetPermissionsList",
     "body": [
       "$${1:ch} = curl_init();",
       "curl_setopt($${1:ch}, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
@@ -2422,7 +2422,7 @@
     "description": "Get the list of permissions in WHMCS API"
   },
   "WHMCSAPIGetProducts": {
-    "prefix": "whmcsApi-GetProducts",
+    "prefix": "w-GetProducts",
     "body": [
       "$${1:ch} = curl_init();",
       "curl_setopt($${1:ch}, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
@@ -2446,7 +2446,7 @@
     "description": "Get product details in WHMCS API"
   },
   "WHMCSAPIGetProject": {
-    "prefix": "whmcsApi-GetProject",
+    "prefix": "w-GetProject",
     "body": [
       "$${1:ch} = curl_init();",
       "curl_setopt($${1:ch}, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
@@ -2470,7 +2470,7 @@
     "description": "Get project details in WHMCS API"
   },
   "WHMCSAPIGetProjects": {
-    "prefix": "whmcsApi-GetProjects",
+    "prefix": "w-GetProjects",
     "body": [
       "$${1:ch} = curl_init();",
       "curl_setopt($${1:ch}, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
@@ -2493,7 +2493,7 @@
     "description": "Get a list of projects in WHMCS API"
   },
   "WHMCSAPIGetPromotions": {
-    "prefix": "whmcsApi-GetPromotions",
+    "prefix": "w-GetPromotions",
     "body": [
       "$${1:ch} = curl_init();",
       "curl_setopt($${1:ch}, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
@@ -2516,7 +2516,7 @@
     "description": "Get a list of promotions using WHMCS API"
   },
   "WHMCSAPIGetQuotes": {
-    "prefix": "whmcsApi-GetQuotes",
+    "prefix": "w-GetQuotes",
     "body": [
       "$${1:ch} = curl_init();",
       "curl_setopt($${1:ch}, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
@@ -2539,7 +2539,7 @@
     "description": "Get quotes using WHMCS API"
   },
   "WHMCSAPIGetRegistrars": {
-    "prefix": "whmcsApi-GetRegistrars",
+    "prefix": "w-GetRegistrars",
     "body": [
       "$${1:ch} = curl_init();",
       "curl_setopt($${1:ch}, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
@@ -2562,7 +2562,7 @@
     "description": "Get registrars using WHMCS API"
   },
   "WHMCSAPIGetServers": {
-    "prefix": "whmcsApi-GetServers",
+    "prefix": "w-GetServers",
     "body": [
       "$${1:ch} = curl_init();",
       "curl_setopt($${1:ch}, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
@@ -2587,7 +2587,7 @@
     "description": "Get servers using WHMCS API"
   },
   "WHMCSAPIGetStaffOnline": {
-    "prefix": "whmcsApi-GetStaffOnline",
+    "prefix": "w-GetStaffOnline",
     "body": [
       "$${1:ch} = curl_init();",
       "curl_setopt($${1:ch}, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
@@ -2610,7 +2610,7 @@
     "description": "Get staff members who are currently online using WHMCS API"
   },
   "WHMCSAPIGetStats": {
-    "prefix": "whmcsApi-GetStats",
+    "prefix": "w-GetStats",
     "body": [
       "$${1:ch} = curl_init();",
       "curl_setopt($${1:ch}, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
@@ -2634,7 +2634,7 @@
     "description": "Get statistics data for the last 7 days using WHMCS API"
   },
   "WHMCSAPIGetSupportDepartments": {
-    "prefix": "whmcsApi-GetSupportDepartments",
+    "prefix": "w-GetSupportDepartments",
     "body": [
       "$${1:ch} = curl_init();",
       "curl_setopt($${1:ch}, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
@@ -2657,7 +2657,7 @@
     "description": "Get a list of support departments using WHMCS API"
   },
   "WHMCSAPIGetSupportStatuses": {
-    "prefix": "whmcsApi-GetSupportStatuses",
+    "prefix": "w-GetSupportStatuses",
     "body": [
       "$${1:ch} = curl_init();",
       "curl_setopt($${1:ch}, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
@@ -2680,7 +2680,7 @@
     "description": "Get a list of support statuses using WHMCS API"
   },
   "WHMCSAPIGetTLDPricing": {
-    "prefix": "whmcsApi-GetTLDPricing",
+    "prefix": "w-GetTLDPricing",
     "body": [
       "$${1:ch} = curl_init();",
       "curl_setopt($${1:ch}, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
@@ -2704,7 +2704,7 @@
     "description": "Get TLD pricing using WHMCS API"
   },
   "WHMCSAPIGetTicket": {
-    "prefix": "whmcsApi-GetTicket",
+    "prefix": "w-GetTicket",
     "body": [
       "$${1:ch} = curl_init();",
       "curl_setopt($${1:ch}, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
@@ -2728,7 +2728,7 @@
     "description": "Get ticket information using WHMCS API"
   },
   "WHMCSAPIGetTicketAttachment": {
-    "prefix": "whmcsApi-GetTicketAttachment",
+    "prefix": "w-GetTicketAttachment",
     "body": [
       "$${1:ch} = curl_init();",
       "curl_setopt($${1:ch}, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
@@ -2754,7 +2754,7 @@
     "description": "Get ticket attachment using WHMCS API"
   },
   "WHMCSAPIGetTicketCounts": {
-    "prefix": "whmcsApi-GetTicketCounts",
+    "prefix": "w-GetTicketCounts",
     "body": [
       "$${1:ch} = curl_init();",
       "curl_setopt($${1:ch}, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
@@ -2779,7 +2779,7 @@
     "description": "Get ticket counts using WHMCS API"
   },
   "WHMCSAPIGetTicketNotes": {
-    "prefix": "whmcsApi-GetTicketNotes",
+    "prefix": "w-GetTicketNotes",
     "body": [
       "$${1:ch} = curl_init();",
       "curl_setopt($${1:ch}, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
@@ -2803,7 +2803,7 @@
     "description": "Get ticket notes using WHMCS API"
   },
   "WHMCSAPIGetTicketPredefinedCats": {
-    "prefix": "whmcsApi-GetTicketPredefinedCats",
+    "prefix": "w-GetTicketPredefinedCats",
     "body": [
       "$${1:ch} = curl_init();",
       "curl_setopt($${1:ch}, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
@@ -2826,7 +2826,7 @@
     "description": "Get ticket predefined categories using WHMCS API"
   },
   "WHMCSAPIGetTicketPredefinedReplies": {
-    "prefix": "whmcsApi-GetTicketPredefinedReplies",
+    "prefix": "w-GetTicketPredefinedReplies",
     "body": [
       "$${1:ch} = curl_init();",
       "curl_setopt($${1:ch}, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
@@ -2849,7 +2849,7 @@
     "description": "Get ticket predefined replies using WHMCS API"
   },
   "WHMCSAPIGetTickets": {
-    "prefix": "whmcsApi-GetTickets",
+    "prefix": "w-GetTickets",
     "body": [
       "$${1:ch} = curl_init();",
       "curl_setopt($${1:ch}, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
@@ -2872,7 +2872,7 @@
     "description": "Get tickets using WHMCS API"
   },
   "WHMCSAPIGetToDoItemStatuses": {
-    "prefix": "whmcsApi-GetToDoItemStatuses",
+    "prefix": "w-GetToDoItemStatuses",
     "body": [
       "$${1:ch} = curl_init();",
       "curl_setopt($${1:ch}, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
@@ -2895,7 +2895,7 @@
     "description": "Get to-do item statuses using WHMCS API"
   },
   "WHMCSAPIGetToDoItems": {
-    "prefix": "whmcsApi-GetToDoItems",
+    "prefix": "w-GetToDoItems",
     "body": [
       "$${1:ch} = curl_init();",
       "curl_setopt($${1:ch}, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
@@ -2919,7 +2919,7 @@
     "description": "Get to-do items with a specific status using WHMCS API"
   },
   "WHMCSAPIGetTransactions": {
-    "prefix": "whmcsApi-GetTransactions",
+    "prefix": "w-GetTransactions",
     "body": [
       "$${1:ch} = curl_init();",
       "curl_setopt($${1:ch}, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
@@ -2943,7 +2943,7 @@
     "description": "Get transactions for a specific client using WHMCS API"
   },
   "WHMCSAPIGetUserPermissions": {
-    "prefix": "whmcsApi-GetUserPermissions",
+    "prefix": "w-GetUserPermissions",
     "body": [
       "$${1:ch} = curl_init();",
       "curl_setopt($${1:ch}, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
@@ -2968,7 +2968,7 @@
     "description": "Get user permissions for a specific client using WHMCS API"
   },
   "WHMCSAPIGetUsers": {
-    "prefix": "whmcsApi-GetUsers",
+    "prefix": "w-GetUsers",
     "body": [
       "$${1:ch} = curl_init();",
       "curl_setopt($${1:ch}, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
@@ -2992,7 +2992,7 @@
     "description": "Get user information based on a search query using WHMCS API"
   },
   "WHMCSAPIListOAuthCredentials": {
-    "prefix": "whmcsApi-ListOAuthCredentials",
+    "prefix": "w-ListOAuthCredentials",
     "body": [
       "$${1:ch} = curl_init();",
       "curl_setopt($${1:ch}, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
@@ -3015,7 +3015,7 @@
     "description": "List OAuth credentials using WHMCS API"
   },
   "WHMCSAPILogActivity": {
-    "prefix": "whmcsApi-LogActivity",
+    "prefix": "w-LogActivity",
     "body": [
       "$${1:ch} = curl_init();",
       "curl_setopt($${1:ch}, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
@@ -3039,7 +3039,7 @@
     "description": "Log activity using WHMCS API"
   },
   "WHMCSAPIMergeTicket": {
-    "prefix": "whmcsApi-MergeTicket",
+    "prefix": "w-MergeTicket",
     "body": [
       "$${1:ch} = curl_init();",
       "curl_setopt($${1:ch}, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
@@ -3066,7 +3066,7 @@
     "description": "Merge a ticket with other tickets using WHMCS API"
   },
   "WHMCSAPIModuleChangePackage": {
-    "prefix": "whmcsApi-ModuleChangePackage",
+    "prefix": "w-ModuleChangePackage",
     "body": [
       "$${1:ch} = curl_init();",
       "curl_setopt($${1:ch}, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
@@ -3090,7 +3090,7 @@
     "description": "Change the package of a module service using WHMCS API"
   },
   "WHMCSAPIModuleChangePw": {
-    "prefix": "whmcsApi-ModuleChangePw",
+    "prefix": "w-ModuleChangePw",
     "body": [
       "$${1:ch} = curl_init();",
       "curl_setopt($${1:ch}, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
@@ -3114,7 +3114,7 @@
     "description": "Change the password of a module service using WHMCS API"
   },
   "WHMCSAPIModuleCreate": {
-    "prefix": "whmcsApi-ModuleCreate",
+    "prefix": "w-ModuleCreate",
     "body": [
       "$${1:ch} = curl_init();",
       "curl_setopt($${1:ch}, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
@@ -3138,7 +3138,7 @@
     "description": "Create a module service using WHMCS API"
   },
   "WHMCSAPIModuleCustom": {
-    "prefix": "whmcsApi-ModuleCustom",
+    "prefix": "w-ModuleCustom",
     "body": [
       "$${1:ch} = curl_init();",
       "curl_setopt($${1:ch}, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
@@ -3163,7 +3163,7 @@
     "description": "Execute a custom function on a module service using WHMCS API"
   },
   "WHMCSAPIModuleSuspend": {
-    "prefix": "whmcsApi-ModuleSuspend",
+    "prefix": "w-ModuleSuspend",
     "body": [
       "$${1:ch} = curl_init();",
       "curl_setopt($${1:ch}, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
@@ -3188,7 +3188,7 @@
     "description": "Suspend a module service using WHMCS API"
   },
   "WHMCSAPIModuleTerminate": {
-    "prefix": "whmcsApi-ModuleTerminate",
+    "prefix": "w-ModuleTerminate",
     "body": [
       "$${1:ch} = curl_init();",
       "curl_setopt($${1:ch}, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
@@ -3212,7 +3212,7 @@
     "description": "Terminate a module service using WHMCS API"
   },
   "WHMCSAPIModuleUnsuspend": {
-    "prefix": "whmcsApi-ModuleUnsuspend",
+    "prefix": "w-ModuleUnsuspend",
     "body": [
       "$${1:ch} = curl_init();",
       "curl_setopt($${1:ch}, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
@@ -3236,7 +3236,7 @@
     "description": "Unsuspend a module service using WHMCS API"
   },
   "WHMCSAPIOpenTicket": {
-    "prefix": "whmcsApi-OpenTicket",
+    "prefix": "w-OpenTicket",
     "body": [
       "$${1:ch} = curl_init();",
       "curl_setopt($${1:ch}, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
@@ -3266,7 +3266,7 @@
     "description": "Open a ticket using WHMCS API"
   },
   "WHMCSAPIOrderFraudCheck": {
-    "prefix": "whmcsApi-OrderFraudCheck",
+    "prefix": "w-OrderFraudCheck",
     "body": [
       "$${1:ch} = curl_init();",
       "curl_setopt($${1:ch}, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
@@ -3290,7 +3290,7 @@
     "description": "Perform fraud check for an order using WHMCS API"
   },
   "WHMCSAPIPendingOrder": {
-    "prefix": "whmcsApi-PendingOrder",
+    "prefix": "w-PendingOrder",
     "body": [
       "$${1:ch} = curl_init();",
       "curl_setopt($${1:ch}, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
@@ -3314,7 +3314,7 @@
     "description": "Retrieve information about a pending order using WHMCS API"
   },
   "WHMCSAPIResetPassword": {
-    "prefix": "whmcsApi-ResetPassword",
+    "prefix": "w-ResetPassword",
     "body": [
       "$${1:ch} = curl_init();",
       "curl_setopt($${1:ch}, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
@@ -3338,7 +3338,7 @@
     "description": "Reset password for a user using WHMCS API"
   },
   "WHMCSAPISendAdminEmail": {
-    "prefix": "whmcsApi-SendAdminEmail",
+    "prefix": "w-SendAdminEmail",
     "body": [
       "$${1:ch} = curl_init();",
       "curl_setopt($${1:ch}, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
@@ -3368,7 +3368,7 @@
     "description": "Send an admin email using WHMCS API"
   },
   "WHMCSAPISendEmail": {
-    "prefix": "whmcsApi-SendEmail",
+    "prefix": "w-SendEmail",
     "body": [
       "$${1:ch} = curl_init();",
       "curl_setopt($${1:ch}, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
@@ -3402,7 +3402,7 @@
     "description": "Send an email using WHMCS API"
   },
   "WHMCSAPISendQuote": {
-    "prefix": "whmcsApi-SendQuote",
+    "prefix": "w-SendQuote",
     "body": [
       "$${1:ch} = curl_init();",
       "curl_setopt($${1:ch}, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
@@ -3426,7 +3426,7 @@
     "description": "Send a quote using WHMCS API"
   },
   "WHMCSAPISetConfigurationValue": {
-    "prefix": "whmcsApi-SetConfigurationValue",
+    "prefix": "w-SetConfigurationValue",
     "body": [
       "$${1:ch} = curl_init();",
       "curl_setopt($${1:ch}, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
@@ -3451,7 +3451,7 @@
     "description": "Set a configuration value using WHMCS API"
   },
   "WHMCSAPIStartTaskTimer": {
-    "prefix": "whmcsApi-StartTaskTimer",
+    "prefix": "w-StartTaskTimer",
     "body": [
       "$${1:ch} = curl_init();",
       "curl_setopt($${1:ch}, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
@@ -3477,7 +3477,7 @@
     "description": "Start a task timer using WHMCS API"
   },
   "WHMCSAPITriggerNotificationEvent": {
-    "prefix": "whmcsApi-TriggerNotificationEvent",
+    "prefix": "w-TriggerNotificationEvent",
     "body": [
       "$${1:ch} = curl_init();",
       "curl_setopt($${1:ch}, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
@@ -3511,7 +3511,7 @@
     "description": "Trigger a notification event using WHMCS API"
   },
   "WHMCSAPIUpdateAdminNotes": {
-    "prefix": "whmcsApi-UpdateAdminNotes",
+    "prefix": "w-UpdateAdminNotes",
     "body": [
       "$${1:ch} = curl_init();",
       "curl_setopt($${1:ch}, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
@@ -3535,7 +3535,7 @@
     "description": "Update admin notes using WHMCS API"
   },
   "WHMCSAPIUpdateAnnouncement": {
-    "prefix": "whmcsApi-UpdateAnnouncement",
+    "prefix": "w-UpdateAnnouncement",
     "body": [
       "$${1:ch} = curl_init();",
       "curl_setopt($${1:ch}, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
@@ -3560,7 +3560,7 @@
     "description": "Update announcement notes using WHMCS API"
   },
   "WHMCSAPIUpdateClient": {
-    "prefix": "whmcsApi-UpdateClient",
+    "prefix": "w-UpdateClient",
     "body": [
       "$${1:ch} = curl_init();",
       "curl_setopt($${1:ch}, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
@@ -3587,7 +3587,7 @@
     "description": "Update client information using WHMCS API"
   },
   "WHMCSAPIUpdateClientAddon": {
-    "prefix": "whmcsApi-UpdateClientAddon",
+    "prefix": "w-UpdateClientAddon",
     "body": [
       "$${1:ch} = curl_init();",
       "curl_setopt($${1:ch}, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
@@ -3612,7 +3612,7 @@
     "description": "Update client addon status using WHMCS API"
   },
   "WHMCSAPIUpdateClientDomain": {
-    "prefix": "whmcsApi-UpdateClientDomain",
+    "prefix": "w-UpdateClientDomain",
     "body": [
       "$${1:ch} = curl_init();",
       "curl_setopt($${1:ch}, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
@@ -3637,7 +3637,7 @@
     "description": "Update client domain status using WHMCS API"
   },
   "WHMCSAPIUpdateClientProduct": {
-    "prefix": "whmcsApi-UpdateClientProduct",
+    "prefix": "w-UpdateClientProduct",
     "body": [
       "$${1:ch} = curl_init();",
       "curl_setopt($${1:ch}, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
@@ -3664,7 +3664,7 @@
     "description": "Update client product information using WHMCS API"
   },
   "WHMCSAPIUpdateContact": {
-    "prefix": "whmcsApi-UpdateContact",
+    "prefix": "w-UpdateContact",
     "body": [
       "$${1:ch} = curl_init();",
       "curl_setopt($${1:ch}, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
@@ -3690,7 +3690,7 @@
     "description": "Update contact information using WHMCS API"
   },
   "WHMCSAPIUpdateInvoice": {
-    "prefix": "whmcsApi-UpdateInvoice",
+    "prefix": "w-UpdateInvoice",
     "body": [
       "$${1:ch} = curl_init();",
       "curl_setopt($${1:ch}, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
@@ -3722,7 +3722,7 @@
     "description": "Update invoice information using WHMCS API"
   },
   "WHMCSAPIUpdateModuleConfiguration": {
-    "prefix": "whmcsApi-UpdateModuleConfiguration",
+    "prefix": "w-UpdateModuleConfiguration",
     "body": [
       "$${1:ch} = curl_init();",
       "curl_setopt($${1:ch}, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
@@ -3748,7 +3748,7 @@
     "description": "Update module configuration using WHMCS API"
   },
   "WHMCSAPIUpdateOAuthCredential": {
-    "prefix": "whmcsApi-UpdateOAuthCredential",
+    "prefix": "w-UpdateOAuthCredential",
     "body": [
       "$${1:ch} = curl_init();",
       "curl_setopt($${1:ch}, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
@@ -3774,7 +3774,7 @@
     "description": "Update OAuth credential using WHMCS API"
   },
   "WHMCSAPIUpdatePayMethod": {
-    "prefix": "whmcsApi-UpdatePayMethod",
+    "prefix": "w-UpdatePayMethod",
     "body": [
       "$${1:ch} = curl_init();",
       "curl_setopt($${1:ch}, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
@@ -3800,7 +3800,7 @@
     "description": "Update payment method information using WHMCS API"
   },
   "WHMCSAPIUpdateProject": {
-    "prefix": "whmcsApi-UpdateProject",
+    "prefix": "w-UpdateProject",
     "body": [
       "$${1:ch} = curl_init();",
       "curl_setopt($${1:ch}, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
@@ -3825,7 +3825,7 @@
     "description": "Update project information using WHMCS API"
   },
   "WHMCSAPIUpdateProjectTask": {
-    "prefix": "whmcsApi-UpdateProjectTask",
+    "prefix": "w-UpdateProjectTask",
     "body": [
       "$${1:ch} = curl_init();",
       "curl_setopt($${1:ch}, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
@@ -3852,7 +3852,7 @@
     "description": "Update project task information using WHMCS API"
   },
   "WHMCSAPIUpdateQuote": {
-    "prefix": "whmcsApi-UpdateQuote",
+    "prefix": "w-UpdateQuote",
     "body": [
       "$${1:ch} = curl_init();",
       "curl_setopt($${1:ch}, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
@@ -3880,7 +3880,7 @@
     "description": "Update quote information using WHMCS API"
   },
   "WHMCSAPIUpdateTicket": {
-    "prefix": "whmcsApi-UpdateTicket",
+    "prefix": "w-UpdateTicket",
     "body": [
       "$${1:ch} = curl_init();",
       "curl_setopt($${1:ch}, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
@@ -3906,7 +3906,7 @@
     "description": "Update ticket information using WHMCS API"
   },
   "WHMCSAPIUpdateTicketReply": {
-    "prefix": "whmcsApi-UpdateTicketReply",
+    "prefix": "w-UpdateTicketReply",
     "body": [
       "$${1:ch} = curl_init();",
       "curl_setopt($${1:ch}, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
@@ -3931,7 +3931,7 @@
     "description": "Update ticket reply information using WHMCS API"
   },
   "WHMCSAPIUpdateToDoItem": {
-    "prefix": "whmcsApi-UpdateToDoItem",
+    "prefix": "w-UpdateToDoItem",
     "body": [
       "$${1:ch} = curl_init();",
       "curl_setopt($${1:ch}, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
@@ -3957,7 +3957,7 @@
     "description": "Update to-do item information using WHMCS API"
   },
   "WHMCSAPIUpdateTransaction": {
-    "prefix": "whmcsApi-UpdateTransaction",
+    "prefix": "w-UpdateTransaction",
     "body": [
       "$${1:ch} = curl_init();",
       "curl_setopt($${1:ch}, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
@@ -3983,7 +3983,7 @@
     "description": "Update transaction information using WHMCS API"
   },
   "WHMCSAPIUpdateUser": {
-    "prefix": "whmcsApi-UpdateUser",
+    "prefix": "w-UpdateUser",
     "body": [
       "$${1:ch} = curl_init();",
       "curl_setopt($${1:ch}, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
@@ -4008,7 +4008,7 @@
     "description": "Update user information using WHMCS API"
   },
   "WHMCSAPIUpdateUserPermissions": {
-    "prefix": "whmcsApi-UpdateUserPermissions",
+    "prefix": "w-UpdateUserPermissions",
     "body": [
       "$${1:ch} = curl_init();",
       "curl_setopt($${1:ch}, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
@@ -4034,7 +4034,7 @@
     "description": "Update user permissions using WHMCS API"
   },
   "WHMCSAPIUpgradeProduct": {
-    "prefix": "whmcsApi-UpgradeProduct",
+    "prefix": "w-UpgradeProduct",
     "body": [
       "$${1:ch} = curl_init();",
       "curl_setopt($${1:ch}, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
@@ -4063,7 +4063,7 @@
     "description": "Upgrade product using WHMCS API"
   },
   "WHMCSAPIValidateLogin": {
-    "prefix": "whmcsApi-ValidateLogin",
+    "prefix": "w-ValidateLogin",
     "body": [
       "$${1:ch} = curl_init();",
       "curl_setopt($${1:ch}, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
@@ -4088,7 +4088,7 @@
     "description": "Validate login credentials using WHMCS API"
   },
   "WHMCSAPIWhmcsDetails": {
-    "prefix": "whmcsApi-WhmcsDetails",
+    "prefix": "w-WhmcsDetails",
     "body": [
       "$${1:ch} = curl_init();",
       "curl_setopt($${1:ch}, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
