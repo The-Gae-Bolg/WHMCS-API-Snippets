@@ -5,7 +5,7 @@
 
 ## Description
 
-This is a set of snippets for Visual Studio Code that make developing using the WHMCS API easier. With these snippets, you can quickly access the different methods of the WHMCS API directly from your editor.
+This is a set of snippets for Visual Studio Code that make it easier to develop using the WHMCS API `Request (CURL)`. With these snippets, you can quickly access the different methods of the WHMCS API right from your editor.
 
 ![Basic use](How-use.gif)
 
