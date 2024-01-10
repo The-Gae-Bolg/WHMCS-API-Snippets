@@ -1,3 +1,5 @@
+# WHMCS API Snippets
+
 > [!IMPORTANT]
 > This extension is not an official product of WHMCS. It is created for educational and collaborative purposes to enhance the user experience.
 

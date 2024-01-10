@@ -21,7 +21,7 @@
       "  )",
       ");",
       "curl_setopt($${1:ch}, CURLOPT_RETURNTRANSFER, 1);",
-      "$${1:response} = curl_exec($${1:ch});",
+      "$${2:response} = curl_exec($${1:ch});",
       "curl_close($${1:ch});"
     ],
     "description": "WHMCS API: Accepts an Order"
@@ -45,7 +45,7 @@
       "  )",
       ");",
       "curl_setopt($${1:ch}, CURLOPT_RETURNTRANSFER, 1);",
-      "$${1:response} = curl_exec($${1:ch});",
+      "$${2:response} = curl_exec($${1:ch});",
       "curl_close($${1:ch});"
     ],
     "description": "WHMCS API: Accepts a Quote"
@@ -71,7 +71,7 @@
       "  )",
       ");",
       "curl_setopt($${1:ch}, CURLOPT_RETURNTRANSFER, 1);",
-      "$${1:response} = curl_exec($${1:ch});",
+      "$${2:response} = curl_exec($${1:ch});",
       "curl_close($${1:ch});"
     ],
     "description": "WHMCS API: Activates a Module"
@@ -98,7 +98,7 @@
       "  )",
       ");",
       "curl_setopt($${1:ch}, CURLOPT_RETURNTRANSFER, 1);",
-      "$${1:response} = curl_exec($${1:ch});",
+      "$${2:response} = curl_exec($${1:ch});",
       "curl_close($${1:ch});"
     ],
     "description": "WHMCS API: Adds an Announcement"
@@ -124,7 +124,7 @@
       "  )",
       ");",
       "curl_setopt($${1:ch}, CURLOPT_RETURNTRANSFER, 1);",
-      "$${1:response} = curl_exec($${1:ch});",
+      "$${2:response} = curl_exec($${1:ch});",
       "curl_close($${1:ch});"
     ],
     "description": "WHMCS API: Adds a Banned IP"
@@ -155,7 +155,7 @@
       "  )",
       ");",
       "curl_setopt($${1:ch}, CURLOPT_RETURNTRANSFER, 1);",
-      "$${1:response} = curl_exec($${1:ch});",
+      "$${2:response} = curl_exec($${1:ch});",
       "curl_close($${1:ch});"
     ],
     "description": "WHMCS API: Adds a Billable Item"
@@ -180,7 +180,7 @@
       "  )",
       ");",
       "curl_setopt($${1:ch}, CURLOPT_RETURNTRANSFER, 1);",
-      "$${1:response} = curl_exec($${1:ch});",
+      "$${2:response} = curl_exec($${1:ch});",
       "curl_close($${1:ch});"
     ],
     "description": "WHMCS API: Adds a Cancel Request"
@@ -214,7 +214,7 @@
       "  )",
       ");",
       "curl_setopt($${1:ch}, CURLOPT_RETURNTRANSFER, 1);",
-      "$${1:response} = curl_exec($${1:ch});",
+      "$${2:response} = curl_exec($${1:ch});",
       "curl_close($${1:ch});"
     ],
     "description": "WHMCS API: Adds a Client"
@@ -240,7 +240,7 @@
       "  )",
       ");",
       "curl_setopt($${1:ch}, CURLOPT_RETURNTRANSFER, 1);",
-      "$${1:response} = curl_exec($${1:ch});",
+      "$${2:response} = curl_exec($${1:ch});",
       "curl_close($${1:ch});"
     ],
     "description": "WHMCS API: Adds a Client Note"
@@ -267,7 +267,7 @@
       "  )",
       ");",
       "curl_setopt($${1:ch}, CURLOPT_RETURNTRANSFER, 1);",
-      "$${1:response} = curl_exec($${1:ch});",
+      "$${2:response} = curl_exec($${1:ch});",
       "curl_close($${1:ch});"
     ],
     "description": "WHMCS API: Adds a Contact"
@@ -294,7 +294,7 @@
       "  )",
       ");",
       "curl_setopt($${1:ch}, CURLOPT_RETURNTRANSFER, 1);",
-      "$${1:response} = curl_exec($${1:ch});",
+      "$${2:response} = curl_exec($${1:ch});",
       "curl_close($${1:ch});"
     ],
     "description": "WHMCS API: Adds Credit"
@@ -321,7 +321,7 @@
       "  )",
       ");",
       "curl_setopt($${1:ch}, CURLOPT_RETURNTRANSFER, 1);",
-      "$${1:response} = curl_exec($${1:ch});",
+      "$${2:response} = curl_exec($${1:ch});",
       "curl_close($${1:ch});"
     ],
     "description": "WHMCS API: Adds an Invoice Payment"
@@ -366,7 +366,7 @@
       "  )",
       ");",
       "curl_setopt($${1:ch}, CURLOPT_RETURNTRANSFER, 1);",
-      "$${1:response} = curl_exec($${1:ch});",
+      "$${2:response} = curl_exec($${1:ch});",
       "curl_close($${1:ch});"
     ],
     "description": "WHMCS API: Adds an Order"
@@ -394,7 +394,7 @@
       "  )",
       ");",
       "curl_setopt($${1:ch}, CURLOPT_RETURNTRANSFER, 1);",
-      "$${1:response} = curl_exec($${1:ch});",
+      "$${2:response} = curl_exec($${1:ch});",
       "curl_close($${1:ch});"
     ],
     "description": "WHMCS API: Adds a Payment Method"
@@ -442,7 +442,7 @@
       "  )",
       ");",
       "curl_setopt($${1:ch}, CURLOPT_RETURNTRANSFER, 1);",
-      "$${1:response} = curl_exec($${1:ch});",
+      "$${2:response} = curl_exec($${1:ch});",
       "curl_close($${1:ch});"
     ],
     "description": "WHMCS API: Adds a Product"
@@ -468,7 +468,7 @@
       "  )",
       ");",
       "curl_setopt($${1:ch}, CURLOPT_RETURNTRANSFER, 1);",
-      "$${1:response} = curl_exec($${1:ch});",
+      "$${2:response} = curl_exec($${1:ch});",
       "curl_close($${1:ch});"
     ],
     "description": "WHMCS API: Adds a Message to a Project"
@@ -495,7 +495,7 @@
       "  )",
       ");",
       "curl_setopt($${1:ch}, CURLOPT_RETURNTRANSFER, 1);",
-      "$${1:response} = curl_exec($${1:ch});",
+      "$${2:response} = curl_exec($${1:ch});",
       "curl_close($${1:ch});"
     ],
     "description": "WHMCS API: Adds a Task to a Project"
@@ -524,7 +524,7 @@
       "  )",
       ");",
       "curl_setopt($${1:ch}, CURLOPT_RETURNTRANSFER, 1);",
-      "$${1:response} = curl_exec($${1:ch});",
+      "$${2:response} = curl_exec($${1:ch});",
       "curl_close($${1:ch});"
     ],
     "description": "WHMCS API: Adds a Note to a Ticket"
@@ -555,7 +555,7 @@
       "  )",
       ");",
       "curl_setopt($${1:ch}, CURLOPT_RETURNTRANSFER, 1);",
-      "$${1:response} = curl_exec($${1:ch});",
+      "$${2:response} = curl_exec($${1:ch});",
       "curl_close($${1:ch});"
     ],
     "description": "WHMCS API: Adds a Reply to a Ticket"
@@ -586,7 +586,7 @@
       "  )",
       ");",
       "curl_setopt($${1:ch}, CURLOPT_RETURNTRANSFER, 1);",
-      "$${1:response} = curl_exec($${1:ch});",
+      "$${2:response} = curl_exec($${1:ch});",
       "curl_close($${1:ch});"
     ],
     "description": "WHMCS API: Adds a Transaction"
@@ -613,7 +613,7 @@
       "  )",
       ");",
       "curl_setopt($${1:ch}, CURLOPT_RETURNTRANSFER, 1);",
-      "$${1:response} = curl_exec($${1:ch});",
+      "$${2:response} = curl_exec($${1:ch});",
       "curl_close($${1:ch});"
     ],
     "description": "WHMCS API: Adds a User"
@@ -637,7 +637,7 @@
       "  )",
       ");",
       "curl_setopt($${1:ch}, CURLOPT_RETURNTRANSFER, 1);",
-      "$${1:response} = curl_exec($${1:ch});",
+      "$${2:response} = curl_exec($${1:ch});",
       "curl_close($${1:ch});"
     ],
     "description": "WHMCS API: Activate Affiliate"
@@ -662,7 +662,7 @@
       "  )",
       ");",
       "curl_setopt($${1:ch}, CURLOPT_RETURNTRANSFER, 1);",
-      "$${1:response} = curl_exec($${1:ch});",
+      "$${2:response} = curl_exec($${1:ch});",
       "curl_close($${1:ch});"
     ],
     "description": "WHMCS API: Apply Credit to an Invoice"
@@ -686,7 +686,7 @@
       "  )",
       ");",
       "curl_setopt($${1:ch}, CURLOPT_RETURNTRANSFER, 1);",
-      "$${1:response} = curl_exec($${1:ch});",
+      "$${2:response} = curl_exec($${1:ch});",
       "curl_close($${1:ch});"
     ],
     "description": "WHMCS API: Block Ticket Sender"
@@ -710,7 +710,7 @@
       "  )",
       ");",
       "curl_setopt($${1:ch}, CURLOPT_RETURNTRANSFER, 1);",
-      "$${1:response} = curl_exec($${1:ch});",
+      "$${2:response} = curl_exec($${1:ch});",
       "curl_close($${1:ch});"
     ],
     "description": "WHMCS API: Cancel Order"
@@ -734,7 +734,7 @@
       "  )",
       ");",
       "curl_setopt($${1:ch}, CURLOPT_RETURNTRANSFER, 1);",
-      "$${1:response} = curl_exec($${1:ch});",
+      "$${2:response} = curl_exec($${1:ch});",
       "curl_close($${1:ch});"
     ],
     "description": "WHMCS API: Capture Payment"
@@ -758,7 +758,7 @@
       "  )",
       ");",
       "curl_setopt($${1:ch}, CURLOPT_RETURNTRANSFER, 1);",
-      "$${1:response} = curl_exec($${1:ch});",
+      "$${2:response} = curl_exec($${1:ch});",
       "curl_close($${1:ch});"
     ],
     "description": "WHMCS API: Close Client"
@@ -784,7 +784,7 @@
       "  )",
       ");",
       "curl_setopt($${1:ch}, CURLOPT_RETURNTRANSFER, 1);",
-      "$${1:response} = curl_exec($${1:ch});",
+      "$${2:response} = curl_exec($${1:ch});",
       "curl_close($${1:ch});"
     ],
     "description": "WHMCS API: Create Client Invite"
@@ -821,7 +821,7 @@
       "  )",
       ");",
       "curl_setopt($${1:ch}, CURLOPT_RETURNTRANSFER, 1);",
-      "$${1:response} = curl_exec($${1:ch});",
+      "$${2:response} = curl_exec($${1:ch});",
       "curl_close($${1:ch});"
     ],
     "description": "WHMCS API: Create Invoice"
@@ -848,7 +848,7 @@
       "  ),",
       ");",
       "curl_setopt($${1:ch}, CURLOPT_RETURNTRANSFER, 1);",
-      "$${1:response} = curl_exec($${1:ch});",
+      "$${2:response} = curl_exec($${1:ch});",
       "curl_close($${1:ch});"
     ],
     "description": "WHMCS API: Create OAuth Credential"
@@ -884,7 +884,7 @@
       "  )",
       ");",
       "curl_setopt($${1:ch}, CURLOPT_RETURNTRANSFER, 1);",
-      "$${1:response} = curl_exec($${1:ch});",
+      "$${2:response} = curl_exec($${1:ch});",
       "curl_close($${1:ch});"
     ],
     "description": "WHMCS API: Create or Update TLD"
@@ -909,7 +909,7 @@
       "  )",
       ");",
       "curl_setopt($${1:ch}, CURLOPT_RETURNTRANSFER, 1);",
-      "$${1:response} = curl_exec($${1:ch});",
+      "$${2:response} = curl_exec($${1:ch});",
       "curl_close($${1:ch});"
     ],
     "description": "WHMCS API: Create Project"
@@ -940,7 +940,7 @@
       "  )",
       ");",
       "curl_setopt($${1:ch}, CURLOPT_RETURNTRANSFER, 1);",
-      "$${1:response} = curl_exec($${1:ch});",
+      "$${2:response} = curl_exec($${1:ch});",
       "curl_close($${1:ch});"
     ],
     "description": "WHMCS API: Create Quote"
@@ -966,7 +966,7 @@
       "  )",
       ");",
       "curl_setopt($${1:ch}, CURLOPT_RETURNTRANSFER, 1);",
-      "$${1:response} = curl_exec($${1:ch});",
+      "$${2:response} = curl_exec($${1:ch});",
       "curl_close($${1:ch});"
     ],
     "description": "WHMCS API: Create SSO Token"
@@ -991,7 +991,7 @@
       "  )",
       ");",
       "curl_setopt($${1:ch}, CURLOPT_RETURNTRANSFER, 1);",
-      "$${1:response} = curl_exec($${1:ch});",
+      "$${2:response} = curl_exec($${1:ch});",
       "curl_close($${1:ch});"
     ],
     "description": "WHMCS API: Deactivate Module"
@@ -1015,7 +1015,7 @@
       "  )",
       ");",
       "curl_setopt($${1:ch}, CURLOPT_RETURNTRANSFER, 1);",
-      "$${1:response} = curl_exec($${1:ch});",
+      "$${2:response} = curl_exec($${1:ch});",
       "curl_close($${1:ch});"
     ],
     "description": "WHMCS API: Decrypt Password"
@@ -1039,7 +1039,7 @@
       "  )",
       ");",
       "curl_setopt($${1:ch}, CURLOPT_RETURNTRANSFER, 1);",
-      "$${1:response} = curl_exec($${1:ch});",
+      "$${2:response} = curl_exec($${1:ch});",
       "curl_close($${1:ch});"
     ],
     "description": "WHMCS API: Delete Announcement"
@@ -1065,7 +1065,7 @@
       "  )",
       ");",
       "curl_setopt($${1:ch}, CURLOPT_RETURNTRANSFER, 1);",
-      "$${1:response} = curl_exec($${1:ch});",
+      "$${2:response} = curl_exec($${1:ch});",
       "curl_close($${1:ch});"
     ],
     "description": "WHMCS API: Delete Client"
@@ -1089,7 +1089,7 @@
       "  )",
       ");",
       "curl_setopt($${1:ch}, CURLOPT_RETURNTRANSFER, 1);",
-      "$${1:response} = curl_exec($${1:ch});",
+      "$${2:response} = curl_exec($${1:ch});",
       "curl_close($${1:ch});"
     ],
     "description": "WHMCS API: Delete Contact"
@@ -1113,7 +1113,7 @@
       "  )",
       ");",
       "curl_setopt($${1:ch}, CURLOPT_RETURNTRANSFER, 1);",
-      "$${1:response} = curl_exec($${1:ch});",
+      "$${2:response} = curl_exec($${1:ch});",
       "curl_close($${1:ch});"
     ],
     "description": "WHMCS API: Delete OAuth Credential"
@@ -1137,7 +1137,7 @@
       "  ),",
       ");",
       "curl_setopt($${1:ch}, CURLOPT_RETURNTRANSFER, 1);",
-      "$${1:response} = curl_exec($${1:ch});",
+      "$${2:response} = curl_exec($${1:ch});",
       "curl_close($${1:ch});"
     ],
     "description": "WHMCS API: Delete Order"
@@ -1161,7 +1161,7 @@
       "  )",
       ");",
       "curl_setopt($${1:ch}, CURLOPT_RETURNTRANSFER, 1);",
-      "$${1:response} = curl_exec($${1:ch});",
+      "$${2:response} = curl_exec($${1:ch});",
       "curl_close($${1:ch});"
     ],
     "description": "WHMCS API: Delete Payment Method"
@@ -1185,7 +1185,7 @@
       "  )",
       ");",
       "curl_setopt($${1:ch}, CURLOPT_RETURNTRANSFER, 1);",
-      "$${1:response} = curl_exec($${1:ch});",
+      "$${2:response} = curl_exec($${1:ch});",
       "curl_close($${1:ch});"
     ],
     "description": "WHMCS API: Delete Project Task"
@@ -1209,7 +1209,7 @@
       "  )",
       ");",
       "curl_setopt($${1:ch}, CURLOPT_RETURNTRANSFER, 1);",
-      "$${1:response} = curl_exec($${1:ch});",
+      "$${2:response} = curl_exec($${1:ch});",
       "curl_close($${1:ch});"
     ],
     "description": "WHMCS API: Delete Quote"
@@ -1233,7 +1233,7 @@
       "  )",
       ");",
       "curl_setopt($${1:ch}, CURLOPT_RETURNTRANSFER, 1);",
-      "$${1:response} = curl_exec($${1:ch});",
+      "$${2:response} = curl_exec($${1:ch});",
       "curl_close($${1:ch});"
     ],
     "description": "WHMCS API: Delete Ticket"
@@ -1257,7 +1257,7 @@
       "  )",
       ");",
       "curl_setopt($${1:ch}, CURLOPT_RETURNTRANSFER, 1);",
-      "$${1:response} = curl_exec($${1:ch});",
+      "$${2:response} = curl_exec($${1:ch});",
       "curl_close($${1:ch});"
     ],
     "description": "WHMCS API: Delete Ticket Note"
@@ -1282,7 +1282,7 @@
       "  )",
       ");",
       "curl_setopt($${1:ch}, CURLOPT_RETURNTRANSFER, 1);",
-      "$${1:response} = curl_exec($${1:ch});",
+      "$${2:response} = curl_exec($${1:ch});",
       "curl_close($${1:ch});"
     ],
     "description": "WHMCS API: Delete Ticket Reply"
@@ -1307,7 +1307,7 @@
       "  )",
       ");",
       "curl_setopt($${1:ch}, CURLOPT_RETURNTRANSFER, 1);",
-      "$${1:response} = curl_exec($${1:ch});",
+      "$${2:response} = curl_exec($${1:ch});",
       "curl_close($${1:ch});"
     ],
     "description": "WHMCS API: Delete User Client"
@@ -1331,7 +1331,7 @@
       "  )",
       ");",
       "curl_setopt($${1:ch}, CURLOPT_RETURNTRANSFER, 1);",
-      "$${1:response} = curl_exec($${1:ch});",
+      "$${2:response} = curl_exec($${1:ch});",
       "curl_close($${1:ch});"
     ],
     "description": "WHMCS API: Domain Get Locking Status"
@@ -1355,7 +1355,7 @@
       "  )",
       ");",
       "curl_setopt($${1:ch}, CURLOPT_RETURNTRANSFER, 1);",
-      "$${1:response} = curl_exec($${1:ch});",
+      "$${2:response} = curl_exec($${1:ch});",
       "curl_close($${1:ch});"
     ],
     "description": "WHMCS API: Domain Get Nameservers"
@@ -1379,7 +1379,7 @@
       "  )",
       ");",
       "curl_setopt($${1:ch}, CURLOPT_RETURNTRANSFER, 1);",
-      "$${1:response} = curl_exec($${1:ch});",
+      "$${2:response} = curl_exec($${1:ch});",
       "curl_close($${1:ch});"
     ],
     "description": "WHMCS API: Domain Get Whois Info"
@@ -1403,7 +1403,7 @@
       "  )",
       ");",
       "curl_setopt($${1:ch}, CURLOPT_RETURNTRANSFER, 1);",
-      "$${1:response} = curl_exec($${1:ch});",
+      "$${2:response} = curl_exec($${1:ch});",
       "curl_close($${1:ch});"
     ],
     "description": "WHMCS API: Domain Register"
@@ -1428,7 +1428,7 @@
       "  )",
       ");",
       "curl_setopt($${1:ch}, CURLOPT_RETURNTRANSFER, 1);",
-      "$${1:response} = curl_exec($${1:ch});",
+      "$${2:response} = curl_exec($${1:ch});",
       "curl_close($${1:ch});"
     ],
     "description": "WHMCS API: Domain Release"
@@ -1452,7 +1452,7 @@
       "  )",
       ");",
       "curl_setopt($${1:ch}, CURLOPT_RETURNTRANSFER, 1);",
-      "$${1:response} = curl_exec($${1:ch});",
+      "$${2:response} = curl_exec($${1:ch});",
       "curl_close($${1:ch});"
     ],
     "description": "WHMCS API: Domain Renew"
@@ -1476,7 +1476,7 @@
       "  )",
       ");",
       "curl_setopt($${1:ch}, CURLOPT_RETURNTRANSFER, 1);",
-      "$${1:response} = curl_exec($${1:ch});",
+      "$${2:response} = curl_exec($${1:ch});",
       "curl_close($${1:ch});"
     ],
     "description": "WHMCS API: Domain Request EPP"
@@ -1501,7 +1501,7 @@
       "  )",
       ");",
       "curl_setopt($${1:ch}, CURLOPT_RETURNTRANSFER, 1);",
-      "$${1:response} = curl_exec($${1:ch});",
+      "$${2:response} = curl_exec($${1:ch});",
       "curl_close($${1:ch});"
     ],
     "description": "WHMCS API: Domain Toggle ID Protect"
@@ -1525,7 +1525,7 @@
       "  )",
       ");",
       "curl_setopt($${1:ch}, CURLOPT_RETURNTRANSFER, 1);",
-      "$${1:response} = curl_exec($${1:ch});",
+      "$${2:response} = curl_exec($${1:ch});",
       "curl_close($${1:ch});"
     ],
     "description": "WHMCS API: Domain Transfer"
@@ -1550,7 +1550,7 @@
       "  )",
       ");",
       "curl_setopt($${1:ch}, CURLOPT_RETURNTRANSFER, 1);",
-      "$${1:response} = curl_exec($${1:ch});",
+      "$${2:response} = curl_exec($${1:ch});",
       "curl_close($${1:ch});"
     ],
     "description": "WHMCS API: Domain Update Locking Status"
@@ -1574,7 +1574,7 @@
       "  )",
       ");",
       "curl_setopt($${1:ch}, CURLOPT_RETURNTRANSFER, 1);",
-      "$${1:response} = curl_exec($${1:ch});",
+      "$${2:response} = curl_exec($${1:ch});",
       "curl_close($${1:ch});"
     ],
     "description": "WHMCS API: Domain Update Nameservers"
@@ -1599,7 +1599,7 @@
       "  )",
       ");",
       "curl_setopt($${1:ch}, CURLOPT_RETURNTRANSFER, 1);",
-      "$${1:response} = curl_exec($${1:ch});",
+      "$${2:response} = curl_exec($${1:ch});",
       "curl_close($${1:ch});"
     ],
     "description": "WHMCS API: Domain Update WHOIS Information"
@@ -1623,7 +1623,7 @@
       "  )",
       ");",
       "curl_setopt($${1:ch}, CURLOPT_RETURNTRANSFER, 1);",
-      "$${1:response} = curl_exec($${1:ch});",
+      "$${2:response} = curl_exec($${1:ch});",
       "curl_close($${1:ch});"
     ],
     "description": "WHMCS API: Domain WHOIS Information"
