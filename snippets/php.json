@@ -2,10 +2,10 @@
   "WHMCSAPIAcceptOrder": {
     "prefix": "w-AcceptOrder",
     "body": [
-      "$ch = curl_init();",
-      "curl_setopt($ch, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
-      "curl_setopt($ch, CURLOPT_POST, 1);",
-      "curl_setopt($ch, CURLOPT_POSTFIELDS,",
+      "$${1:ch} = curl_init();",
+      "curl_setopt($${1:ch}, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
+      "curl_setopt($${1:ch}, CURLOPT_POST, 1);",
+      "curl_setopt($${1:ch}, CURLOPT_POSTFIELDS,",
       "  http_build_query(",
       "    array(",
       "      'action' => 'AcceptOrder',",
@@ -20,19 +20,19 @@
       "    )",
       "  )",
       ");",
-      "curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);",
-      "$response = curl_exec($ch);",
-      "curl_close($ch);"
+      "curl_setopt($${1:ch}, CURLOPT_RETURNTRANSFER, 1);",
+      "$${1:response} = curl_exec($${1:ch});",
+      "curl_close($${1:ch});"
     ],
     "description": "WHMCS API: Accepts an Order"
   },
   "WHMCSAPIAcceptQuote": {
     "prefix": "w-AcceptQuote",
     "body": [
-      "$ch = curl_init();",
-      "curl_setopt($ch, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
-      "curl_setopt($ch, CURLOPT_POST, 1);",
-      "curl_setopt($ch, CURLOPT_POSTFIELDS,",
+      "$${1:ch} = curl_init();",
+      "curl_setopt($${1:ch}, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
+      "curl_setopt($${1:ch}, CURLOPT_POST, 1);",
+      "curl_setopt($${1:ch}, CURLOPT_POSTFIELDS,",
       "  http_build_query(",
       "    array(",
       "      'action' => 'AcceptQuote',",
@@ -44,19 +44,19 @@
       "    )",
       "  )",
       ");",
-      "curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);",
-      "$response = curl_exec($ch);",
-      "curl_close($ch);"
+      "curl_setopt($${1:ch}, CURLOPT_RETURNTRANSFER, 1);",
+      "$${1:response} = curl_exec($${1:ch});",
+      "curl_close($${1:ch});"
     ],
     "description": "WHMCS API: Accepts a Quote"
   },
   "WHMCSAPIActivateModule": {
     "prefix": "w-ActivateModule",
     "body": [
-      "$ch = curl_init();",
-      "curl_setopt($ch, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
-      "curl_setopt($ch, CURLOPT_POST, 1);",
-      "curl_setopt($ch, CURLOPT_POSTFIELDS,",
+      "$${1:ch} = curl_init();",
+      "curl_setopt($${1:ch}, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
+      "curl_setopt($${1:ch}, CURLOPT_POST, 1);",
+      "curl_setopt($${1:ch}, CURLOPT_POSTFIELDS,",
       "  http_build_query(",
       "    array(",
       "      'action' => 'ActivateModule',",
@@ -70,19 +70,19 @@
       "    )",
       "  )",
       ");",
-      "curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);",
-      "$response = curl_exec($ch);",
-      "curl_close($ch);"
+      "curl_setopt($${1:ch}, CURLOPT_RETURNTRANSFER, 1);",
+      "$${1:response} = curl_exec($${1:ch});",
+      "curl_close($${1:ch});"
     ],
     "description": "WHMCS API: Activates a Module"
   },
   "WHMCSAPIAddAnnouncement": {
     "prefix": "w-AddAnnouncement",
     "body": [
-      "$ch = curl_init();",
-      "curl_setopt($ch, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
-      "curl_setopt($ch, CURLOPT_POST, 1);",
-      "curl_setopt($ch, CURLOPT_POSTFIELDS,",
+      "$${1:ch} = curl_init();",
+      "curl_setopt($${1:ch}, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
+      "curl_setopt($${1:ch}, CURLOPT_POST, 1);",
+      "curl_setopt($${1:ch}, CURLOPT_POSTFIELDS,",
       "  http_build_query(",
       "    array(",
       "      'action' => 'AddAnnouncement',",
@@ -97,19 +97,19 @@
       "    )",
       "  )",
       ");",
-      "curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);",
-      "$response = curl_exec($ch);",
-      "curl_close($ch);"
+      "curl_setopt($${1:ch}, CURLOPT_RETURNTRANSFER, 1);",
+      "$${1:response} = curl_exec($${1:ch});",
+      "curl_close($${1:ch});"
     ],
     "description": "WHMCS API: Adds an Announcement"
   },
   "WHMCSAPIAddBannedIp": {
     "prefix": "w-AddBannedIp",
     "body": [
-      "$ch = curl_init();",
-      "curl_setopt($ch, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
-      "curl_setopt($ch, CURLOPT_POST, 1);",
-      "curl_setopt($ch, CURLOPT_POSTFIELDS,",
+      "$${1:ch} = curl_init();",
+      "curl_setopt($${1:ch}, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
+      "curl_setopt($${1:ch}, CURLOPT_POST, 1);",
+      "curl_setopt($${1:ch}, CURLOPT_POSTFIELDS,",
       "  http_build_query(",
       "    array(",
       "      'action' => 'AddBannedIp',",
@@ -123,19 +123,19 @@
       "    )",
       "  )",
       ");",
-      "curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);",
-      "$response = curl_exec($ch);",
-      "curl_close($ch);"
+      "curl_setopt($${1:ch}, CURLOPT_RETURNTRANSFER, 1);",
+      "$${1:response} = curl_exec($${1:ch});",
+      "curl_close($${1:ch});"
     ],
     "description": "WHMCS API: Adds a Banned IP"
   },
   "WHMCSAPIAddBillableItem": {
     "prefix": "w-AddBillableItem",
     "body": [
-      "$ch = curl_init();",
-      "curl_setopt($ch, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
-      "curl_setopt($ch, CURLOPT_POST, 1);",
-      "curl_setopt($ch, CURLOPT_POSTFIELDS,",
+      "$${1:ch} = curl_init();",
+      "curl_setopt($${1:ch}, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
+      "curl_setopt($${1:ch}, CURLOPT_POST, 1);",
+      "curl_setopt($${1:ch}, CURLOPT_POSTFIELDS,",
       "  http_build_query(",
       "    array(",
       "      'action' => 'AddBillableItem',",
@@ -154,19 +154,19 @@
       "    )",
       "  )",
       ");",
-      "curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);",
-      "$response = curl_exec($ch);",
-      "curl_close($ch);"
+      "curl_setopt($${1:ch}, CURLOPT_RETURNTRANSFER, 1);",
+      "$${1:response} = curl_exec($${1:ch});",
+      "curl_close($${1:ch});"
     ],
     "description": "WHMCS API: Adds a Billable Item"
   },
   "WHMCSAPIAddCancelRequest": {
     "prefix": "w-AddCancelRequest",
     "body": [
-      "$ch = curl_init();",
-      "curl_setopt($ch, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
-      "curl_setopt($ch, CURLOPT_POST, 1);",
-      "curl_setopt($ch, CURLOPT_POSTFIELDS,",
+      "$${1:ch} = curl_init();",
+      "curl_setopt($${1:ch}, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
+      "curl_setopt($${1:ch}, CURLOPT_POST, 1);",
+      "curl_setopt($${1:ch}, CURLOPT_POSTFIELDS,",
       "  http_build_query(",
       "    array(",
       "      'action' => 'AddCancelRequest',",
@@ -179,19 +179,19 @@
       "    )",
       "  )",
       ");",
-      "curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);",
-      "$response = curl_exec($ch);",
-      "curl_close($ch);"
+      "curl_setopt($${1:ch}, CURLOPT_RETURNTRANSFER, 1);",
+      "$${1:response} = curl_exec($${1:ch});",
+      "curl_close($${1:ch});"
     ],
     "description": "WHMCS API: Adds a Cancel Request"
   },
   "WHMCSAPIAddClient": {
     "prefix": "w-AddClient",
     "body": [
-      "$ch = curl_init();",
-      "curl_setopt($ch, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
-      "curl_setopt($ch, CURLOPT_POST, 1);",
-      "curl_setopt($ch, CURLOPT_POSTFIELDS,",
+      "$${1:ch} = curl_init();",
+      "curl_setopt($${1:ch}, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
+      "curl_setopt($${1:ch}, CURLOPT_POST, 1);",
+      "curl_setopt($${1:ch}, CURLOPT_POSTFIELDS,",
       "  http_build_query(",
       "    array(",
       "      'action' => 'AddClient',",
@@ -213,19 +213,19 @@
       "    )",
       "  )",
       ");",
-      "curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);",
-      "$response = curl_exec($ch);",
-      "curl_close($ch);"
+      "curl_setopt($${1:ch}, CURLOPT_RETURNTRANSFER, 1);",
+      "$${1:response} = curl_exec($${1:ch});",
+      "curl_close($${1:ch});"
     ],
     "description": "WHMCS API: Adds a Client"
   },
   "WHMCSAPIAddClientNote": {
     "prefix": "w-AddClientNote",
     "body": [
-      "$ch = curl_init();",
-      "curl_setopt($ch, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
-      "curl_setopt($ch, CURLOPT_POST, 1);",
-      "curl_setopt($ch, CURLOPT_POSTFIELDS,",
+      "$${1:ch} = curl_init();",
+      "curl_setopt($${1:ch}, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
+      "curl_setopt($${1:ch}, CURLOPT_POST, 1);",
+      "curl_setopt($${1:ch}, CURLOPT_POSTFIELDS,",
       "  http_build_query(",
       "    array(",
       "      'action' => 'AddClientNote',",
@@ -239,19 +239,19 @@
       "    )",
       "  )",
       ");",
-      "curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);",
-      "$response = curl_exec($ch);",
-      "curl_close($ch);"
+      "curl_setopt($${1:ch}, CURLOPT_RETURNTRANSFER, 1);",
+      "$${1:response} = curl_exec($${1:ch});",
+      "curl_close($${1:ch});"
     ],
     "description": "WHMCS API: Adds a Client Note"
   },
   "WHMCSAPIAddContact": {
     "prefix": "w-AddContact",
     "body": [
-      "$ch = curl_init();",
-      "curl_setopt($ch, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
-      "curl_setopt($ch, CURLOPT_POST, 1);",
-      "curl_setopt($ch, CURLOPT_POSTFIELDS,",
+      "$${1:ch} = curl_init();",
+      "curl_setopt($${1:ch}, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
+      "curl_setopt($${1:ch}, CURLOPT_POST, 1);",
+      "curl_setopt($${1:ch}, CURLOPT_POSTFIELDS,",
       "  http_build_query(",
       "    array(",
       "      'action' => 'AddContact',",
@@ -266,19 +266,19 @@
       "    )",
       "  )",
       ");",
-      "curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);",
-      "$response = curl_exec($ch);",
-      "curl_close($ch);"
+      "curl_setopt($${1:ch}, CURLOPT_RETURNTRANSFER, 1);",
+      "$${1:response} = curl_exec($${1:ch});",
+      "curl_close($${1:ch});"
     ],
     "description": "WHMCS API: Adds a Contact"
   },
   "WHMCSAPIAddCredit": {
     "prefix": "w-AddCredit",
     "body": [
-      "$ch = curl_init();",
-      "curl_setopt($ch, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
-      "curl_setopt($ch, CURLOPT_POST, 1);",
-      "curl_setopt($ch, CURLOPT_POSTFIELDS,",
+      "$${1:ch} = curl_init();",
+      "curl_setopt($${1:ch}, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
+      "curl_setopt($${1:ch}, CURLOPT_POST, 1);",
+      "curl_setopt($${1:ch}, CURLOPT_POSTFIELDS,",
       "  http_build_query(",
       "    array(",
       "      'action' => 'AddCredit',",
@@ -293,19 +293,19 @@
       "    )",
       "  )",
       ");",
-      "curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);",
-      "$response = curl_exec($ch);",
-      "curl_close($ch);"
+      "curl_setopt($${1:ch}, CURLOPT_RETURNTRANSFER, 1);",
+      "$${1:response} = curl_exec($${1:ch});",
+      "curl_close($${1:ch});"
     ],
     "description": "WHMCS API: Adds Credit"
   },
   "WHMCSAPIAddInvoicePayment": {
     "prefix": "w-AddInvoicePayment",
     "body": [
-      "$ch = curl_init();",
-      "curl_setopt($ch, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
-      "curl_setopt($ch, CURLOPT_POST, 1);",
-      "curl_setopt($ch, CURLOPT_POSTFIELDS,",
+      "$${1:ch} = curl_init();",
+      "curl_setopt($${1:ch}, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
+      "curl_setopt($${1:ch}, CURLOPT_POST, 1);",
+      "curl_setopt($${1:ch}, CURLOPT_POSTFIELDS,",
       "  http_build_query(",
       "    array(",
       "      'action' => 'AddInvoicePayment',",
@@ -320,19 +320,19 @@
       "    )",
       "  )",
       ");",
-      "curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);",
-      "$response = curl_exec($ch);",
-      "curl_close($ch);"
+      "curl_setopt($${1:ch}, CURLOPT_RETURNTRANSFER, 1);",
+      "$${1:response} = curl_exec($${1:ch});",
+      "curl_close($${1:ch});"
     ],
     "description": "WHMCS API: Adds an Invoice Payment"
   },
   "WHMCSAPIAddOrder": {
     "prefix": "w-AddOrder",
     "body": [
-      "$ch = curl_init();",
-      "curl_setopt($ch, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
-      "curl_setopt($ch, CURLOPT_POST, 1);",
-      "curl_setopt($ch, CURLOPT_POSTFIELDS,",
+      "$${1:ch} = curl_init();",
+      "curl_setopt($${1:ch}, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
+      "curl_setopt($${1:ch}, CURLOPT_POST, 1);",
+      "curl_setopt($${1:ch}, CURLOPT_POSTFIELDS,",
       "  http_build_query(",
       "    array(",
       "      'action' => 'AddOrder',",
@@ -365,19 +365,19 @@
       "    )",
       "  )",
       ");",
-      "curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);",
-      "$response = curl_exec($ch);",
-      "curl_close($ch);"
+      "curl_setopt($${1:ch}, CURLOPT_RETURNTRANSFER, 1);",
+      "$${1:response} = curl_exec($${1:ch});",
+      "curl_close($${1:ch});"
     ],
     "description": "WHMCS API: Adds an Order"
   },
   "WHMCSAPIAddPayMethod": {
     "prefix": "w-AddPayMethod",
     "body": [
-      "$ch = curl_init();",
-      "curl_setopt($ch, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
-      "curl_setopt($ch, CURLOPT_POST, 1);",
-      "curl_setopt($ch, CURLOPT_POSTFIELDS,",
+      "$${1:ch} = curl_init();",
+      "curl_setopt($${1:ch}, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
+      "curl_setopt($${1:ch}, CURLOPT_POST, 1);",
+      "curl_setopt($${1:ch}, CURLOPT_POSTFIELDS,",
       "  http_build_query(",
       "    array(",
       "      'action' => 'AddPayMethod',",
@@ -393,19 +393,19 @@
       "    )",
       "  )",
       ");",
-      "curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);",
-      "$response = curl_exec($ch);",
-      "curl_close($ch);"
+      "curl_setopt($${1:ch}, CURLOPT_RETURNTRANSFER, 1);",
+      "$${1:response} = curl_exec($${1:ch});",
+      "curl_close($${1:ch});"
     ],
     "description": "WHMCS API: Adds a Payment Method"
   },
   "WHMCSAPIAddProduct": {
     "prefix": "w-AddProduct",
     "body": [
-      "$ch = curl_init();",
-      "curl_setopt($ch, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
-      "curl_setopt($ch, CURLOPT_POST, 1);",
-      "curl_setopt($ch, CURLOPT_POSTFIELDS,",
+      "$${1:ch} = curl_init();",
+      "curl_setopt($${1:ch}, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
+      "curl_setopt($${1:ch}, CURLOPT_POST, 1);",
+      "curl_setopt($${1:ch}, CURLOPT_POSTFIELDS,",
       "  http_build_query(",
       "    array(",
       "      'action' => 'AddProduct',",
@@ -441,19 +441,19 @@
       "    )",
       "  )",
       ");",
-      "curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);",
-      "$response = curl_exec($ch);",
-      "curl_close($ch);"
+      "curl_setopt($${1:ch}, CURLOPT_RETURNTRANSFER, 1);",
+      "$${1:response} = curl_exec($${1:ch});",
+      "curl_close($${1:ch});"
     ],
     "description": "WHMCS API: Adds a Product"
   },
   "WHMCSAPIAddProjectMessage": {
     "prefix": "w-AddProjectMessage",
     "body": [
-      "$ch = curl_init();",
-      "curl_setopt($ch, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
-      "curl_setopt($ch, CURLOPT_POST, 1);",
-      "curl_setopt($ch, CURLOPT_POSTFIELDS,",
+      "$${1:ch} = curl_init();",
+      "curl_setopt($${1:ch}, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
+      "curl_setopt($${1:ch}, CURLOPT_POST, 1);",
+      "curl_setopt($${1:ch}, CURLOPT_POSTFIELDS,",
       "  http_build_query(",
       "    array(",
       "      'action' => 'AddProjectMessage',",
@@ -467,19 +467,19 @@
       "    )",
       "  )",
       ");",
-      "curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);",
-      "$response = curl_exec($ch);",
-      "curl_close($ch);"
+      "curl_setopt($${1:ch}, CURLOPT_RETURNTRANSFER, 1);",
+      "$${1:response} = curl_exec($${1:ch});",
+      "curl_close($${1:ch});"
     ],
     "description": "WHMCS API: Adds a Message to a Project"
   },
   "WHMCSAPIAddProjectTask": {
     "prefix": "w-AddProjectTask",
     "body": [
-      "$ch = curl_init();",
-      "curl_setopt($ch, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
-      "curl_setopt($ch, CURLOPT_POST, 1);",
-      "curl_setopt($ch, CURLOPT_POSTFIELDS,",
+      "$${1:ch} = curl_init();",
+      "curl_setopt($${1:ch}, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
+      "curl_setopt($${1:ch}, CURLOPT_POST, 1);",
+      "curl_setopt($${1:ch}, CURLOPT_POSTFIELDS,",
       "  http_build_query(",
       "    array(",
       "      'action' => 'AddProjectTask',",
@@ -494,19 +494,19 @@
       "    )",
       "  )",
       ");",
-      "curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);",
-      "$response = curl_exec($ch);",
-      "curl_close($ch);"
+      "curl_setopt($${1:ch}, CURLOPT_RETURNTRANSFER, 1);",
+      "$${1:response} = curl_exec($${1:ch});",
+      "curl_close($${1:ch});"
     ],
     "description": "WHMCS API: Adds a Task to a Project"
   },
   "WHMCSAPIAddTicketNote": {
     "prefix": "w-AddTicketNote",
     "body": [
-      "$ch = curl_init();",
-      "curl_setopt($ch, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
-      "curl_setopt($ch, CURLOPT_POST, 1);",
-      "curl_setopt($ch, CURLOPT_POSTFIELDS,",
+      "$${1:ch} = curl_init();",
+      "curl_setopt($${1:ch}, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
+      "curl_setopt($${1:ch}, CURLOPT_POST, 1);",
+      "curl_setopt($${1:ch}, CURLOPT_POSTFIELDS,",
       "  http_build_query(",
       "    array(",
       "      'action' => 'AddTicketNote',",
@@ -523,19 +523,19 @@
       "    )",
       "  )",
       ");",
-      "curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);",
-      "$response = curl_exec($ch);",
-      "curl_close($ch);"
+      "curl_setopt($${1:ch}, CURLOPT_RETURNTRANSFER, 1);",
+      "$${1:response} = curl_exec($${1:ch});",
+      "curl_close($${1:ch});"
     ],
     "description": "WHMCS API: Adds a Note to a Ticket"
   },
   "WHMCSAPIAddTicketReply": {
     "prefix": "w-AddTicketReply",
     "body": [
-      "$ch = curl_init();",
-      "curl_setopt($ch, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
-      "curl_setopt($ch, CURLOPT_POST, 1);",
-      "curl_setopt($ch, CURLOPT_POSTFIELDS,",
+      "$${1:ch} = curl_init();",
+      "curl_setopt($${1:ch}, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
+      "curl_setopt($${1:ch}, CURLOPT_POST, 1);",
+      "curl_setopt($${1:ch}, CURLOPT_POSTFIELDS,",
       "  http_build_query(",
       "    array(",
       "      'action' => 'AddTicketReply',",
@@ -554,19 +554,19 @@
       "    )",
       "  )",
       ");",
-      "curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);",
-      "$response = curl_exec($ch);",
-      "curl_close($ch);"
+      "curl_setopt($${1:ch}, CURLOPT_RETURNTRANSFER, 1);",
+      "$${1:response} = curl_exec($${1:ch});",
+      "curl_close($${1:ch});"
     ],
     "description": "WHMCS API: Adds a Reply to a Ticket"
   },
   "WHMCSAPIAddTransaction": {
     "prefix": "w-AddTransaction",
     "body": [
-      "$ch = curl_init();",
-      "curl_setopt($ch, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
-      "curl_setopt($ch, CURLOPT_POST, 1);",
-      "curl_setopt($ch, CURLOPT_POSTFIELDS,",
+      "$${1:ch} = curl_init();",
+      "curl_setopt($${1:ch}, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
+      "curl_setopt($${1:ch}, CURLOPT_POST, 1);",
+      "curl_setopt($${1:ch}, CURLOPT_POSTFIELDS,",
       "  http_build_query(",
       "    array(",
       "      'action' => 'AddTransaction',",
@@ -585,19 +585,19 @@
       "    )",
       "  )",
       ");",
-      "curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);",
-      "$response = curl_exec($ch);",
-      "curl_close($ch);"
+      "curl_setopt($${1:ch}, CURLOPT_RETURNTRANSFER, 1);",
+      "$${1:response} = curl_exec($${1:ch});",
+      "curl_close($${1:ch});"
     ],
     "description": "WHMCS API: Adds a Transaction"
   },
   "WHMCSAPIAddUser": {
     "prefix": "w-AddUser",
     "body": [
-      "$ch = curl_init();",
-      "curl_setopt($ch, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
-      "curl_setopt($ch, CURLOPT_POST, 1);",
-      "curl_setopt($ch, CURLOPT_POSTFIELDS,",
+      "$${1:ch} = curl_init();",
+      "curl_setopt($${1:ch}, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
+      "curl_setopt($${1:ch}, CURLOPT_POST, 1);",
+      "curl_setopt($${1:ch}, CURLOPT_POSTFIELDS,",
       "  http_build_query(",
       "    array(",
       "      'action' => 'AddUser',",
@@ -612,19 +612,19 @@
       "    )",
       "  )",
       ");",
-      "curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);",
-      "$response = curl_exec($ch);",
-      "curl_close($ch);"
+      "curl_setopt($${1:ch}, CURLOPT_RETURNTRANSFER, 1);",
+      "$${1:response} = curl_exec($${1:ch});",
+      "curl_close($${1:ch});"
     ],
     "description": "WHMCS API: Adds a User"
   },
   "WHMCSAPIAffiliateActivate": {
     "prefix": "w-AffiliateActivate",
     "body": [
-      "$ch = curl_init();",
-      "curl_setopt($ch, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
-      "curl_setopt($ch, CURLOPT_POST, 1);",
-      "curl_setopt($ch, CURLOPT_POSTFIELDS,",
+      "$${1:ch} = curl_init();",
+      "curl_setopt($${1:ch}, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
+      "curl_setopt($${1:ch}, CURLOPT_POST, 1);",
+      "curl_setopt($${1:ch}, CURLOPT_POSTFIELDS,",
       "  http_build_query(",
       "    array(",
       "      'action' => 'AffiliateActivate',",
@@ -636,19 +636,19 @@
       "    )",
       "  )",
       ");",
-      "curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);",
-      "$response = curl_exec($ch);",
-      "curl_close($ch);"
+      "curl_setopt($${1:ch}, CURLOPT_RETURNTRANSFER, 1);",
+      "$${1:response} = curl_exec($${1:ch});",
+      "curl_close($${1:ch});"
     ],
     "description": "WHMCS API: Activate Affiliate"
   },
   "WHMCSAPIApplyCredit": {
     "prefix": "w-ApplyCredit",
     "body": [
-      "$ch = curl_init();",
-      "curl_setopt($ch, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
-      "curl_setopt($ch, CURLOPT_POST, 1);",
-      "curl_setopt($ch, CURLOPT_POSTFIELDS,",
+      "$${1:ch} = curl_init();",
+      "curl_setopt($${1:ch}, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
+      "curl_setopt($${1:ch}, CURLOPT_POST, 1);",
+      "curl_setopt($${1:ch}, CURLOPT_POSTFIELDS,",
       "  http_build_query(",
       "    array(",
       "      'action' => 'ApplyCredit',",
@@ -661,19 +661,19 @@
       "    )",
       "  )",
       ");",
-      "curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);",
-      "$response = curl_exec($ch);",
-      "curl_close($ch);"
+      "curl_setopt($${1:ch}, CURLOPT_RETURNTRANSFER, 1);",
+      "$${1:response} = curl_exec($${1:ch});",
+      "curl_close($${1:ch});"
     ],
     "description": "WHMCS API: Apply Credit to an Invoice"
   },
   "WHMCSAPIBlockTicketSender": {
     "prefix": "w-BlockTicketSender",
     "body": [
-      "$ch = curl_init();",
-      "curl_setopt($ch, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
-      "curl_setopt($ch, CURLOPT_POST, 1);",
-      "curl_setopt($ch, CURLOPT_POSTFIELDS,",
+      "$${1:ch} = curl_init();",
+      "curl_setopt($${1:ch}, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
+      "curl_setopt($${1:ch}, CURLOPT_POST, 1);",
+      "curl_setopt($${1:ch}, CURLOPT_POSTFIELDS,",
       "  http_build_query(",
       "    array(",
       "      'action' => 'BlockTicketSender',",
@@ -685,19 +685,19 @@
       "    )",
       "  )",
       ");",
-      "curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);",
-      "$response = curl_exec($ch);",
-      "curl_close($ch);"
+      "curl_setopt($${1:ch}, CURLOPT_RETURNTRANSFER, 1);",
+      "$${1:response} = curl_exec($${1:ch});",
+      "curl_close($${1:ch});"
     ],
     "description": "WHMCS API: Block Ticket Sender"
   },
   "WHMCSAPICancelOrder": {
     "prefix": "w-CancelOrder",
     "body": [
-      "$ch = curl_init();",
-      "curl_setopt($ch, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
-      "curl_setopt($ch, CURLOPT_POST, 1);",
-      "curl_setopt($ch, CURLOPT_POSTFIELDS,",
+      "$${1:ch} = curl_init();",
+      "curl_setopt($${1:ch}, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
+      "curl_setopt($${1:ch}, CURLOPT_POST, 1);",
+      "curl_setopt($${1:ch}, CURLOPT_POSTFIELDS,",
       "  http_build_query(",
       "    array(",
       "      'action' => 'CancelOrder',",
@@ -709,19 +709,19 @@
       "    )",
       "  )",
       ");",
-      "curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);",
-      "$response = curl_exec($ch);",
-      "curl_close($ch);"
+      "curl_setopt($${1:ch}, CURLOPT_RETURNTRANSFER, 1);",
+      "$${1:response} = curl_exec($${1:ch});",
+      "curl_close($${1:ch});"
     ],
     "description": "WHMCS API: Cancel Order"
   },
   "WHMCSAPICapturePayment": {
     "prefix": "w-CapturePayment",
     "body": [
-      "$ch = curl_init();",
-      "curl_setopt($ch, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
-      "curl_setopt($ch, CURLOPT_POST, 1);",
-      "curl_setopt($ch, CURLOPT_POSTFIELDS,",
+      "$${1:ch} = curl_init();",
+      "curl_setopt($${1:ch}, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
+      "curl_setopt($${1:ch}, CURLOPT_POST, 1);",
+      "curl_setopt($${1:ch}, CURLOPT_POSTFIELDS,",
       "  http_build_query(",
       "    array(",
       "      'action' => 'CapturePayment',",
@@ -733,19 +733,19 @@
       "    )",
       "  )",
       ");",
-      "curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);",
-      "$response = curl_exec($ch);",
-      "curl_close($ch);"
+      "curl_setopt($${1:ch}, CURLOPT_RETURNTRANSFER, 1);",
+      "$${1:response} = curl_exec($${1:ch});",
+      "curl_close($${1:ch});"
     ],
     "description": "WHMCS API: Capture Payment"
   },
   "WHMCSAPICloseClient": {
     "prefix": "w-CloseClient",
     "body": [
-      "$ch = curl_init();",
-      "curl_setopt($ch, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
-      "curl_setopt($ch, CURLOPT_POST, 1);",
-      "curl_setopt($ch, CURLOPT_POSTFIELDS,",
+      "$${1:ch} = curl_init();",
+      "curl_setopt($${1:ch}, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
+      "curl_setopt($${1:ch}, CURLOPT_POST, 1);",
+      "curl_setopt($${1:ch}, CURLOPT_POSTFIELDS,",
       "  http_build_query(",
       "    array(",
       "      'action' => 'CloseClient',",
@@ -757,19 +757,19 @@
       "    )",
       "  )",
       ");",
-      "curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);",
-      "$response = curl_exec($ch);",
-      "curl_close($ch);"
+      "curl_setopt($${1:ch}, CURLOPT_RETURNTRANSFER, 1);",
+      "$${1:response} = curl_exec($${1:ch});",
+      "curl_close($${1:ch});"
     ],
     "description": "WHMCS API: Close Client"
   },
   "WHMCSAPICreateClientInvite": {
     "prefix": "w-CreateClientInvite",
     "body": [
-      "$ch = curl_init();",
-      "curl_setopt($ch, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
-      "curl_setopt($ch, CURLOPT_POST, 1);",
-      "curl_setopt($ch, CURLOPT_POSTFIELDS,",
+      "$${1:ch} = curl_init();",
+      "curl_setopt($${1:ch}, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
+      "curl_setopt($${1:ch}, CURLOPT_POST, 1);",
+      "curl_setopt($${1:ch}, CURLOPT_POSTFIELDS,",
       "  http_build_query(",
       "    array(",
       "      'action' => 'CreateClientInvite',",
@@ -783,19 +783,19 @@
       "    )",
       "  )",
       ");",
-      "curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);",
-      "$response = curl_exec($ch);",
-      "curl_close($ch);"
+      "curl_setopt($${1:ch}, CURLOPT_RETURNTRANSFER, 1);",
+      "$${1:response} = curl_exec($${1:ch});",
+      "curl_close($${1:ch});"
     ],
     "description": "WHMCS API: Create Client Invite"
   },
   "WHMCSAPICreateInvoice": {
     "prefix": "w-CreateInvoice",
     "body": [
-      "$ch = curl_init();",
-      "curl_setopt($ch, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
-      "curl_setopt($ch, CURLOPT_POST, 1);",
-      "curl_setopt($ch, CURLOPT_POSTFIELDS,",
+      "$${1:ch} = curl_init();",
+      "curl_setopt($${1:ch}, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
+      "curl_setopt($${1:ch}, CURLOPT_POST, 1);",
+      "curl_setopt($${1:ch}, CURLOPT_POSTFIELDS,",
       "  http_build_query(",
       "    array(",
       "      'action' => 'CreateInvoice',",
@@ -820,19 +820,19 @@
       "    )",
       "  )",
       ");",
-      "curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);",
-      "$response = curl_exec($ch);",
-      "curl_close($ch);"
+      "curl_setopt($${1:ch}, CURLOPT_RETURNTRANSFER, 1);",
+      "$${1:response} = curl_exec($${1:ch});",
+      "curl_close($${1:ch});"
     ],
     "description": "WHMCS API: Create Invoice"
   },
   "WHMCSAPICreateOAuthCredential": {
     "prefix": "w-CreateOAuthCredential",
     "body": [
-      "$ch = curl_init();",
-      "curl_setopt($ch, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
-      "curl_setopt($ch, CURLOPT_POST, 1);",
-      "curl_setopt($ch, CURLOPT_POSTFIELDS,",
+      "$${1:ch} = curl_init();",
+      "curl_setopt($${1:ch}, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
+      "curl_setopt($${1:ch}, CURLOPT_POST, 1);",
+      "curl_setopt($${1:ch}, CURLOPT_POSTFIELDS,",
       "  http_build_query(",
       "    array(",
       "      'action' => 'CreateOAuthCredential',",
@@ -847,19 +847,19 @@
       "    )",
       "  ),",
       ");",
-      "curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);",
-      "$response = curl_exec($ch);",
-      "curl_close($ch);"
+      "curl_setopt($${1:ch}, CURLOPT_RETURNTRANSFER, 1);",
+      "$${1:response} = curl_exec($${1:ch});",
+      "curl_close($${1:ch});"
     ],
     "description": "WHMCS API: Create OAuth Credential"
   },
   "WHMCSAPICreateOrUpdateTLD": {
     "prefix": "w-CreateOrUpdateTLD",
     "body": [
-      "$ch = curl_init();",
-      "curl_setopt($ch, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
-      "curl_setopt($ch, CURLOPT_POST, 1);",
-      "curl_setopt($ch, CURLOPT_POSTFIELDS,",
+      "$${1:ch} = curl_init();",
+      "curl_setopt($${1:ch}, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
+      "curl_setopt($${1:ch}, CURLOPT_POST, 1);",
+      "curl_setopt($${1:ch}, CURLOPT_POSTFIELDS,",
       "  http_build_query(",
       "    array(",
       "      'action' => 'CreateOrUpdateTLD',",
@@ -883,19 +883,19 @@
       "    )",
       "  )",
       ");",
-      "curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);",
-      "$response = curl_exec($ch);",
-      "curl_close($ch);"
+      "curl_setopt($${1:ch}, CURLOPT_RETURNTRANSFER, 1);",
+      "$${1:response} = curl_exec($${1:ch});",
+      "curl_close($${1:ch});"
     ],
     "description": "WHMCS API: Create or Update TLD"
   },
   "WHMCSAPICreateProject": {
     "prefix": "w-CreateProject",
     "body": [
-      "$ch = curl_init();",
-      "curl_setopt($ch, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
-      "curl_setopt($ch, CURLOPT_POST, 1);",
-      "curl_setopt($ch, CURLOPT_POSTFIELDS,",
+      "$${1:ch} = curl_init();",
+      "curl_setopt($${1:ch}, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
+      "curl_setopt($${1:ch}, CURLOPT_POST, 1);",
+      "curl_setopt($${1:ch}, CURLOPT_POSTFIELDS,",
       "  http_build_query(",
       "    array(",
       "      'action' => 'CreateProject',",
@@ -908,19 +908,19 @@
       "    )",
       "  )",
       ");",
-      "curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);",
-      "$response = curl_exec($ch);",
-      "curl_close($ch);"
+      "curl_setopt($${1:ch}, CURLOPT_RETURNTRANSFER, 1);",
+      "$${1:response} = curl_exec($${1:ch});",
+      "curl_close($${1:ch});"
     ],
     "description": "WHMCS API: Create Project"
   },
   "WHMCSAPICreateQuote": {
     "prefix": "w-CreateQuote",
     "body": [
-      "$ch = curl_init();",
-      "curl_setopt($ch, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
-      "curl_setopt($ch, CURLOPT_POST, 1);",
-      "curl_setopt($ch, CURLOPT_POSTFIELDS,",
+      "$${1:ch} = curl_init();",
+      "curl_setopt($${1:ch}, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
+      "curl_setopt($${1:ch}, CURLOPT_POST, 1);",
+      "curl_setopt($${1:ch}, CURLOPT_POSTFIELDS,",
       "  http_build_query(",
       "    array(",
       "      'action' => 'CreateQuote',",
@@ -939,19 +939,19 @@
       "    )",
       "  )",
       ");",
-      "curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);",
-      "$response = curl_exec($ch);",
-      "curl_close($ch);"
+      "curl_setopt($${1:ch}, CURLOPT_RETURNTRANSFER, 1);",
+      "$${1:response} = curl_exec($${1:ch});",
+      "curl_close($${1:ch});"
     ],
     "description": "WHMCS API: Create Quote"
   },
   "WHMCSAPICreateSsoToken": {
     "prefix": "w-CreateSsoToken",
     "body": [
-      "$ch = curl_init();",
-      "curl_setopt($ch, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
-      "curl_setopt($ch, CURLOPT_POST, 1);",
-      "curl_setopt($ch, CURLOPT_POSTFIELDS,",
+      "$${1:ch} = curl_init();",
+      "curl_setopt($${1:ch}, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
+      "curl_setopt($${1:ch}, CURLOPT_POST, 1);",
+      "curl_setopt($${1:ch}, CURLOPT_POSTFIELDS,",
       "  http_build_query(",
       "    array(",
       "      'action' => 'CreateSsoToken',",
@@ -965,19 +965,19 @@
       "    )",
       "  )",
       ");",
-      "curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);",
-      "$response = curl_exec($ch);",
-      "curl_close($ch);"
+      "curl_setopt($${1:ch}, CURLOPT_RETURNTRANSFER, 1);",
+      "$${1:response} = curl_exec($${1:ch});",
+      "curl_close($${1:ch});"
     ],
     "description": "WHMCS API: Create SSO Token"
   },
   "WHMCSAPIDeactivateModule": {
     "prefix": "w-DeactivateModule",
     "body": [
-      "$ch = curl_init();",
-      "curl_setopt($ch, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
-      "curl_setopt($ch, CURLOPT_POST, 1);",
-      "curl_setopt($ch, CURLOPT_POSTFIELDS,",
+      "$${1:ch} = curl_init();",
+      "curl_setopt($${1:ch}, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
+      "curl_setopt($${1:ch}, CURLOPT_POST, 1);",
+      "curl_setopt($${1:ch}, CURLOPT_POSTFIELDS,",
       "  http_build_query(",
       "    array(",
       "      'action' => 'DeactivateModule',",
@@ -990,19 +990,19 @@
       "    )",
       "  )",
       ");",
-      "curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);",
-      "$response = curl_exec($ch);",
-      "curl_close($ch);"
+      "curl_setopt($${1:ch}, CURLOPT_RETURNTRANSFER, 1);",
+      "$${1:response} = curl_exec($${1:ch});",
+      "curl_close($${1:ch});"
     ],
     "description": "WHMCS API: Deactivate Module"
   },
   "WHMCSAPIDecryptPassword": {
     "prefix": "w-DecryptPassword",
     "body": [
-      "$ch = curl_init();",
-      "curl_setopt($ch, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
-      "curl_setopt($ch, CURLOPT_POST, 1);",
-      "curl_setopt($ch, CURLOPT_POSTFIELDS,",
+      "$${1:ch} = curl_init();",
+      "curl_setopt($${1:ch}, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
+      "curl_setopt($${1:ch}, CURLOPT_POST, 1);",
+      "curl_setopt($${1:ch}, CURLOPT_POSTFIELDS,",
       "  http_build_query(",
       "    array(",
       "      'action' => 'DecryptPassword',",
@@ -1014,19 +1014,19 @@
       "    )",
       "  )",
       ");",
-      "curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);",
-      "$response = curl_exec($ch);",
-      "curl_close($ch);"
+      "curl_setopt($${1:ch}, CURLOPT_RETURNTRANSFER, 1);",
+      "$${1:response} = curl_exec($${1:ch});",
+      "curl_close($${1:ch});"
     ],
     "description": "WHMCS API: Decrypt Password"
   },
   "WHMCSAPIDeleteAnnouncement": {
     "prefix": "w-DeleteAnnouncement",
     "body": [
-      "$ch = curl_init();",
-      "curl_setopt($ch, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
-      "curl_setopt($ch, CURLOPT_POST, 1);",
-      "curl_setopt($ch, CURLOPT_POSTFIELDS,",
+      "$${1:ch} = curl_init();",
+      "curl_setopt($${1:ch}, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
+      "curl_setopt($${1:ch}, CURLOPT_POST, 1);",
+      "curl_setopt($${1:ch}, CURLOPT_POSTFIELDS,",
       "  http_build_query(",
       "    array(",
       "      'action' => 'DeleteAnnouncement',",
@@ -1038,19 +1038,19 @@
       "    )",
       "  )",
       ");",
-      "curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);",
-      "$response = curl_exec($ch);",
-      "curl_close($ch);"
+      "curl_setopt($${1:ch}, CURLOPT_RETURNTRANSFER, 1);",
+      "$${1:response} = curl_exec($${1:ch});",
+      "curl_close($${1:ch});"
     ],
     "description": "WHMCS API: Delete Announcement"
   },
   "WHMCSAPIDeleteClient": {
     "prefix": "w-DeleteClient",
     "body": [
-      "$ch = curl_init();",
-      "curl_setopt($ch, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
-      "curl_setopt($ch, CURLOPT_POST, 1);",
-      "curl_setopt($ch, CURLOPT_POSTFIELDS,",
+      "$${1:ch} = curl_init();",
+      "curl_setopt($${1:ch}, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
+      "curl_setopt($${1:ch}, CURLOPT_POST, 1);",
+      "curl_setopt($${1:ch}, CURLOPT_POSTFIELDS,",
       "  http_build_query(",
       "    array(",
       "      'action' => 'DeleteClient',",
@@ -1064,19 +1064,19 @@
       "    )",
       "  )",
       ");",
-      "curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);",
-      "$response = curl_exec($ch);",
-      "curl_close($ch);"
+      "curl_setopt($${1:ch}, CURLOPT_RETURNTRANSFER, 1);",
+      "$${1:response} = curl_exec($${1:ch});",
+      "curl_close($${1:ch});"
     ],
     "description": "WHMCS API: Delete Client"
   },
   "WHMCSAPIDeleteContact": {
     "prefix": "w-DeleteContact",
     "body": [
-      "$ch = curl_init();",
-      "curl_setopt($ch, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
-      "curl_setopt($ch, CURLOPT_POST, 1);",
-      "curl_setopt($ch, CURLOPT_POSTFIELDS,",
+      "$${1:ch} = curl_init();",
+      "curl_setopt($${1:ch}, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
+      "curl_setopt($${1:ch}, CURLOPT_POST, 1);",
+      "curl_setopt($${1:ch}, CURLOPT_POSTFIELDS,",
       "  http_build_query(",
       "    array(",
       "      'action' => 'DeleteContact',",
@@ -1088,19 +1088,19 @@
       "    )",
       "  )",
       ");",
-      "curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);",
-      "$response = curl_exec($ch);",
-      "curl_close($ch);"
+      "curl_setopt($${1:ch}, CURLOPT_RETURNTRANSFER, 1);",
+      "$${1:response} = curl_exec($${1:ch});",
+      "curl_close($${1:ch});"
     ],
     "description": "WHMCS API: Delete Contact"
   },
   "WHMCSAPIDeleteOAuthCredential": {
     "prefix": "w-DeleteOAuthCredential",
     "body": [
-      "$ch = curl_init();",
-      "curl_setopt($ch, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
-      "curl_setopt($ch, CURLOPT_POST, 1);",
-      "curl_setopt($ch, CURLOPT_POSTFIELDS,",
+      "$${1:ch} = curl_init();",
+      "curl_setopt($${1:ch}, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
+      "curl_setopt($${1:ch}, CURLOPT_POST, 1);",
+      "curl_setopt($${1:ch}, CURLOPT_POSTFIELDS,",
       "  http_build_query(",
       "    array(",
       "      'action' => 'DeleteOAuthCredential',",
@@ -1112,19 +1112,19 @@
       "    )",
       "  )",
       ");",
-      "curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);",
-      "$response = curl_exec($ch);",
-      "curl_close($ch);"
+      "curl_setopt($${1:ch}, CURLOPT_RETURNTRANSFER, 1);",
+      "$${1:response} = curl_exec($${1:ch});",
+      "curl_close($${1:ch});"
     ],
     "description": "WHMCS API: Delete OAuth Credential"
   },
   "WHMCSAPIDeleteOrder": {
     "prefix": "w-DeleteOrder",
     "body": [
-      "$ch = curl_init();",
-      "curl_setopt($ch, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
-      "curl_setopt($ch, CURLOPT_POST, 1);",
-      "curl_setopt($ch, CURLOPT_POSTFIELDS,",
+      "$${1:ch} = curl_init();",
+      "curl_setopt($${1:ch}, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
+      "curl_setopt($${1:ch}, CURLOPT_POST, 1);",
+      "curl_setopt($${1:ch}, CURLOPT_POSTFIELDS,",
       "  http_build_query(",
       "    array(",
       "      'action' => 'DeleteOrder',",
@@ -1136,19 +1136,19 @@
       "    )",
       "  ),",
       ");",
-      "curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);",
-      "$response = curl_exec($ch);",
-      "curl_close($ch);"
+      "curl_setopt($${1:ch}, CURLOPT_RETURNTRANSFER, 1);",
+      "$${1:response} = curl_exec($${1:ch});",
+      "curl_close($${1:ch});"
     ],
     "description": "WHMCS API: Delete Order"
   },
   "WHMCSAPIDeletePayMethod": {
     "prefix": "w-DeletePayMethod",
     "body": [
-      "$ch = curl_init();",
-      "curl_setopt($ch, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
-      "curl_setopt($ch, CURLOPT_POST, 1);",
-      "curl_setopt($ch, CURLOPT_POSTFIELDS,",
+      "$${1:ch} = curl_init();",
+      "curl_setopt($${1:ch}, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
+      "curl_setopt($${1:ch}, CURLOPT_POST, 1);",
+      "curl_setopt($${1:ch}, CURLOPT_POSTFIELDS,",
       "  http_build_query(",
       "    array(",
       "      'action' => 'DeletePayMethod',",
@@ -1160,19 +1160,19 @@
       "    )",
       "  )",
       ");",
-      "curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);",
-      "$response = curl_exec($ch);",
-      "curl_close($ch);"
+      "curl_setopt($${1:ch}, CURLOPT_RETURNTRANSFER, 1);",
+      "$${1:response} = curl_exec($${1:ch});",
+      "curl_close($${1:ch});"
     ],
     "description": "WHMCS API: Delete Payment Method"
   },
   "WHMCSAPIDeleteProjectTask": {
     "prefix": "w-DeleteProjectTask",
     "body": [
-      "$ch = curl_init();",
-      "curl_setopt($ch, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
-      "curl_setopt($ch, CURLOPT_POST, 1);",
-      "curl_setopt($ch, CURLOPT_POSTFIELDS,",
+      "$${1:ch} = curl_init();",
+      "curl_setopt($${1:ch}, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
+      "curl_setopt($${1:ch}, CURLOPT_POST, 1);",
+      "curl_setopt($${1:ch}, CURLOPT_POSTFIELDS,",
       "  http_build_query(",
       "    array(",
       "      'action' => 'DeleteProjectTask',",
@@ -1184,19 +1184,19 @@
       "    )",
       "  )",
       ");",
-      "curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);",
-      "$response = curl_exec($ch);",
-      "curl_close($ch);"
+      "curl_setopt($${1:ch}, CURLOPT_RETURNTRANSFER, 1);",
+      "$${1:response} = curl_exec($${1:ch});",
+      "curl_close($${1:ch});"
     ],
     "description": "WHMCS API: Delete Project Task"
   },
   "WHMCSAPIDeleteQuote": {
     "prefix": "w-DeleteQuote",
     "body": [
-      "$ch = curl_init();",
-      "curl_setopt($ch, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
-      "curl_setopt($ch, CURLOPT_POST, 1);",
-      "curl_setopt($ch, CURLOPT_POSTFIELDS,",
+      "$${1:ch} = curl_init();",
+      "curl_setopt($${1:ch}, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
+      "curl_setopt($${1:ch}, CURLOPT_POST, 1);",
+      "curl_setopt($${1:ch}, CURLOPT_POSTFIELDS,",
       "  http_build_query(",
       "    array(",
       "      'action' => 'DeleteQuote',",
@@ -1208,19 +1208,19 @@
       "    )",
       "  )",
       ");",
-      "curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);",
-      "$response = curl_exec($ch);",
-      "curl_close($ch);"
+      "curl_setopt($${1:ch}, CURLOPT_RETURNTRANSFER, 1);",
+      "$${1:response} = curl_exec($${1:ch});",
+      "curl_close($${1:ch});"
     ],
     "description": "WHMCS API: Delete Quote"
   },
   "WHMCSAPIDeleteTicket": {
     "prefix": "w-DeleteTicket",
     "body": [
-      "$ch = curl_init();",
-      "curl_setopt($ch, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
-      "curl_setopt($ch, CURLOPT_POST, 1);",
-      "curl_setopt($ch, CURLOPT_POSTFIELDS,",
+      "$${1:ch} = curl_init();",
+      "curl_setopt($${1:ch}, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
+      "curl_setopt($${1:ch}, CURLOPT_POST, 1);",
+      "curl_setopt($${1:ch}, CURLOPT_POSTFIELDS,",
       "  http_build_query(",
       "    array(",
       "      'action' => 'DeleteTicket',",
@@ -1232,19 +1232,19 @@
       "    )",
       "  )",
       ");",
-      "curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);",
-      "$response = curl_exec($ch);",
-      "curl_close($ch);"
+      "curl_setopt($${1:ch}, CURLOPT_RETURNTRANSFER, 1);",
+      "$${1:response} = curl_exec($${1:ch});",
+      "curl_close($${1:ch});"
     ],
     "description": "WHMCS API: Delete Ticket"
   },
   "WHMCSAPIDeleteTicketNote": {
     "prefix": "w-DeleteTicketNote",
     "body": [
-      "$ch = curl_init();",
-      "curl_setopt($ch, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
-      "curl_setopt($ch, CURLOPT_POST, 1);",
-      "curl_setopt($ch, CURLOPT_POSTFIELDS,",
+      "$${1:ch} = curl_init();",
+      "curl_setopt($${1:ch}, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
+      "curl_setopt($${1:ch}, CURLOPT_POST, 1);",
+      "curl_setopt($${1:ch}, CURLOPT_POSTFIELDS,",
       "  http_build_query(",
       "    array(",
       "      'action' => 'DeleteTicketNote',",
@@ -1256,19 +1256,19 @@
       "    )",
       "  )",
       ");",
-      "curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);",
-      "$response = curl_exec($ch);",
-      "curl_close($ch);"
+      "curl_setopt($${1:ch}, CURLOPT_RETURNTRANSFER, 1);",
+      "$${1:response} = curl_exec($${1:ch});",
+      "curl_close($${1:ch});"
     ],
     "description": "WHMCS API: Delete Ticket Note"
   },
   "WHMCSAPIDeleteTicketReply": {
     "prefix": "w-DeleteTicketReply",
     "body": [
-      "$ch = curl_init();",
-      "curl_setopt($ch, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
-      "curl_setopt($ch, CURLOPT_POST, 1);",
-      "curl_setopt($ch, CURLOPT_POSTFIELDS,",
+      "$${1:ch} = curl_init();",
+      "curl_setopt($${1:ch}, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
+      "curl_setopt($${1:ch}, CURLOPT_POST, 1);",
+      "curl_setopt($${1:ch}, CURLOPT_POSTFIELDS,",
       "  http_build_query(",
       "    array(",
       "      'action' => 'DeleteTicketReply',",
@@ -1281,19 +1281,19 @@
       "    )",
       "  )",
       ");",
-      "curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);",
-      "$response = curl_exec($ch);",
-      "curl_close($ch);"
+      "curl_setopt($${1:ch}, CURLOPT_RETURNTRANSFER, 1);",
+      "$${1:response} = curl_exec($${1:ch});",
+      "curl_close($${1:ch});"
     ],
     "description": "WHMCS API: Delete Ticket Reply"
   },
   "WHMCSAPIDeleteUserClient": {
     "prefix": "w-DeleteUserClient",
     "body": [
-      "$ch = curl_init();",
-      "curl_setopt($ch, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
-      "curl_setopt($ch, CURLOPT_POST, 1);",
-      "curl_setopt($ch, CURLOPT_POSTFIELDS,",
+      "$${1:ch} = curl_init();",
+      "curl_setopt($${1:ch}, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
+      "curl_setopt($${1:ch}, CURLOPT_POST, 1);",
+      "curl_setopt($${1:ch}, CURLOPT_POSTFIELDS,",
       "  http_build_query(",
       "    array(",
       "      'action' => 'DeleteUserClient',",
@@ -1306,19 +1306,19 @@
       "    )",
       "  )",
       ");",
-      "curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);",
-      "$response = curl_exec($ch);",
-      "curl_close($ch);"
+      "curl_setopt($${1:ch}, CURLOPT_RETURNTRANSFER, 1);",
+      "$${1:response} = curl_exec($${1:ch});",
+      "curl_close($${1:ch});"
     ],
     "description": "WHMCS API: Delete User Client"
   },
   "WHMCSAPIDomainGetLockingStatus": {
     "prefix": "w-DomainGetLockingStatus",
     "body": [
-      "$ch = curl_init();",
-      "curl_setopt($ch, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
-      "curl_setopt($ch, CURLOPT_POST, 1);",
-      "curl_setopt($ch, CURLOPT_POSTFIELDS,",
+      "$${1:ch} = curl_init();",
+      "curl_setopt($${1:ch}, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
+      "curl_setopt($${1:ch}, CURLOPT_POST, 1);",
+      "curl_setopt($${1:ch}, CURLOPT_POSTFIELDS,",
       "  http_build_query(",
       "    array(",
       "      'action' => 'DomainGetLockingStatus',",
@@ -1330,19 +1330,19 @@
       "    )",
       "  )",
       ");",
-      "curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);",
-      "$response = curl_exec($ch);",
-      "curl_close($ch);"
+      "curl_setopt($${1:ch}, CURLOPT_RETURNTRANSFER, 1);",
+      "$${1:response} = curl_exec($${1:ch});",
+      "curl_close($${1:ch});"
     ],
     "description": "WHMCS API: Domain Get Locking Status"
   },
   "WHMCSAPIDomainGetNameservers": {
     "prefix": "w-DomainGetNameservers",
     "body": [
-      "$ch = curl_init();",
-      "curl_setopt($ch, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
-      "curl_setopt($ch, CURLOPT_POST, 1);",
-      "curl_setopt($ch, CURLOPT_POSTFIELDS,",
+      "$${1:ch} = curl_init();",
+      "curl_setopt($${1:ch}, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
+      "curl_setopt($${1:ch}, CURLOPT_POST, 1);",
+      "curl_setopt($${1:ch}, CURLOPT_POSTFIELDS,",
       "  http_build_query(",
       "    array(",
       "      'action' => 'DomainGetNameservers',",
@@ -1354,19 +1354,19 @@
       "    )",
       "  )",
       ");",
-      "curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);",
-      "$response = curl_exec($ch);",
-      "curl_close($ch);"
+      "curl_setopt($${1:ch}, CURLOPT_RETURNTRANSFER, 1);",
+      "$${1:response} = curl_exec($${1:ch});",
+      "curl_close($${1:ch});"
     ],
     "description": "WHMCS API: Domain Get Nameservers"
   },
   "WHMCSAPIDomainGetWhoisInfo": {
     "prefix": "w-DomainGetWhoisInfo",
     "body": [
-      "$ch = curl_init();",
-      "curl_setopt($ch, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
-      "curl_setopt($ch, CURLOPT_POST, 1);",
-      "curl_setopt($ch, CURLOPT_POSTFIELDS,",
+      "$${1:ch} = curl_init();",
+      "curl_setopt($${1:ch}, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
+      "curl_setopt($${1:ch}, CURLOPT_POST, 1);",
+      "curl_setopt($${1:ch}, CURLOPT_POSTFIELDS,",
       "  http_build_query(",
       "    array(",
       "      'action' => 'DomainGetWhoisInfo',",
@@ -1378,19 +1378,19 @@
       "    )",
       "  )",
       ");",
-      "curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);",
-      "$response = curl_exec($ch);",
-      "curl_close($ch);"
+      "curl_setopt($${1:ch}, CURLOPT_RETURNTRANSFER, 1);",
+      "$${1:response} = curl_exec($${1:ch});",
+      "curl_close($${1:ch});"
     ],
     "description": "WHMCS API: Domain Get Whois Info"
   },
   "WHMCSAPIDomainRegister": {
     "prefix": "w-DomainRegister",
     "body": [
-      "$ch = curl_init();",
-      "curl_setopt($ch, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
-      "curl_setopt($ch, CURLOPT_POST, 1);",
-      "curl_setopt($ch, CURLOPT_POSTFIELDS,",
+      "$${1:ch} = curl_init();",
+      "curl_setopt($${1:ch}, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
+      "curl_setopt($${1:ch}, CURLOPT_POST, 1);",
+      "curl_setopt($${1:ch}, CURLOPT_POSTFIELDS,",
       "  http_build_query(",
       "    array(",
       "      'action' => 'DomainRegister',",
@@ -1402,19 +1402,19 @@
       "    )",
       "  )",
       ");",
-      "curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);",
-      "$response = curl_exec($ch);",
-      "curl_close($ch);"
+      "curl_setopt($${1:ch}, CURLOPT_RETURNTRANSFER, 1);",
+      "$${1:response} = curl_exec($${1:ch});",
+      "curl_close($${1:ch});"
     ],
     "description": "WHMCS API: Domain Register"
   },
   "WHMCSAPIDomainRelease": {
     "prefix": "w-DomainRelease",
     "body": [
-      "$ch = curl_init();",
-      "curl_setopt($ch, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
-      "curl_setopt($ch, CURLOPT_POST, 1);",
-      "curl_setopt($ch, CURLOPT_POSTFIELDS,",
+      "$${1:ch} = curl_init();",
+      "curl_setopt($${1:ch}, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
+      "curl_setopt($${1:ch}, CURLOPT_POST, 1);",
+      "curl_setopt($${1:ch}, CURLOPT_POSTFIELDS,",
       "  http_build_query(",
       "    array(",
       "      'action' => 'DomainRelease',",
@@ -1427,19 +1427,19 @@
       "    )",
       "  )",
       ");",
-      "curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);",
-      "$response = curl_exec($ch);",
-      "curl_close($ch);"
+      "curl_setopt($${1:ch}, CURLOPT_RETURNTRANSFER, 1);",
+      "$${1:response} = curl_exec($${1:ch});",
+      "curl_close($${1:ch});"
     ],
     "description": "WHMCS API: Domain Release"
   },
   "WHMCSAPIDomainRenew": {
     "prefix": "w-DomainRenew",
     "body": [
-      "$ch = curl_init();",
-      "curl_setopt($ch, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
-      "curl_setopt($ch, CURLOPT_POST, 1);",
-      "curl_setopt($ch, CURLOPT_POSTFIELDS,",
+      "$${1:ch} = curl_init();",
+      "curl_setopt($${1:ch}, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
+      "curl_setopt($${1:ch}, CURLOPT_POST, 1);",
+      "curl_setopt($${1:ch}, CURLOPT_POSTFIELDS,",
       "  http_build_query(",
       "    array(",
       "      'action' => 'DomainRenew',",
@@ -1451,19 +1451,19 @@
       "    )",
       "  )",
       ");",
-      "curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);",
-      "$response = curl_exec($ch);",
-      "curl_close($ch);"
+      "curl_setopt($${1:ch}, CURLOPT_RETURNTRANSFER, 1);",
+      "$${1:response} = curl_exec($${1:ch});",
+      "curl_close($${1:ch});"
     ],
     "description": "WHMCS API: Domain Renew"
   },
   "WHMCSAPIDomainRequestEPP": {
     "prefix": "w-DomainRequestEPP",
     "body": [
-      "$ch = curl_init();",
-      "curl_setopt($ch, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
-      "curl_setopt($ch, CURLOPT_POST, 1);",
-      "curl_setopt($ch, CURLOPT_POSTFIELDS,",
+      "$${1:ch} = curl_init();",
+      "curl_setopt($${1:ch}, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
+      "curl_setopt($${1:ch}, CURLOPT_POST, 1);",
+      "curl_setopt($${1:ch}, CURLOPT_POSTFIELDS,",
       "  http_build_query(",
       "    array(",
       "      'action' => 'DomainRequestEPP',",
@@ -1475,19 +1475,19 @@
       "    )",
       "  )",
       ");",
-      "curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);",
-      "$response = curl_exec($ch);",
-      "curl_close($ch);"
+      "curl_setopt($${1:ch}, CURLOPT_RETURNTRANSFER, 1);",
+      "$${1:response} = curl_exec($${1:ch});",
+      "curl_close($${1:ch});"
     ],
     "description": "WHMCS API: Domain Request EPP"
   },
   "WHMCSAPIDomainToggleIdProtect": {
     "prefix": "w-DomainToggleIdProtect",
     "body": [
-      "$ch = curl_init();",
-      "curl_setopt($ch, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
-      "curl_setopt($ch, CURLOPT_POST, 1);",
-      "curl_setopt($ch, CURLOPT_POSTFIELDS,",
+      "$${1:ch} = curl_init();",
+      "curl_setopt($${1:ch}, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
+      "curl_setopt($${1:ch}, CURLOPT_POST, 1);",
+      "curl_setopt($${1:ch}, CURLOPT_POSTFIELDS,",
       "  http_build_query(",
       "    array(",
       "      'action' => 'DomainToggleIdProtect',",
@@ -1500,19 +1500,19 @@
       "    )",
       "  )",
       ");",
-      "curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);",
-      "$response = curl_exec($ch);",
-      "curl_close($ch);"
+      "curl_setopt($${1:ch}, CURLOPT_RETURNTRANSFER, 1);",
+      "$${1:response} = curl_exec($${1:ch});",
+      "curl_close($${1:ch});"
     ],
     "description": "WHMCS API: Domain Toggle ID Protect"
   },
   "WHMCSAPIDomainTransfer": {
     "prefix": "w-DomainTransfer",
     "body": [
-      "$ch = curl_init();",
-      "curl_setopt($ch, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
-      "curl_setopt($ch, CURLOPT_POST, 1);",
-      "curl_setopt($ch, CURLOPT_POSTFIELDS,",
+      "$${1:ch} = curl_init();",
+      "curl_setopt($${1:ch}, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
+      "curl_setopt($${1:ch}, CURLOPT_POST, 1);",
+      "curl_setopt($${1:ch}, CURLOPT_POSTFIELDS,",
       "  http_build_query(",
       "    array(",
       "      'action' => 'DomainTransfer',",
@@ -1524,19 +1524,19 @@
       "    )",
       "  )",
       ");",
-      "curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);",
-      "$response = curl_exec($ch);",
-      "curl_close($ch);"
+      "curl_setopt($${1:ch}, CURLOPT_RETURNTRANSFER, 1);",
+      "$${1:response} = curl_exec($${1:ch});",
+      "curl_close($${1:ch});"
     ],
     "description": "WHMCS API: Domain Transfer"
   },
   "WHMCSAPIDomainUpdateLockingStatus": {
     "prefix": "w-DomainUpdateLockingStatus",
     "body": [
-      "$ch = curl_init();",
-      "curl_setopt($ch, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
-      "curl_setopt($ch, CURLOPT_POST, 1);",
-      "curl_setopt($ch, CURLOPT_POSTFIELDS,",
+      "$${1:ch} = curl_init();",
+      "curl_setopt($${1:ch}, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
+      "curl_setopt($${1:ch}, CURLOPT_POST, 1);",
+      "curl_setopt($${1:ch}, CURLOPT_POSTFIELDS,",
       "  http_build_query(",
       "    array(",
       "      'action' => 'DomainUpdateLockingStatus',",
@@ -1549,19 +1549,19 @@
       "    )",
       "  )",
       ");",
-      "curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);",
-      "$response = curl_exec($ch);",
-      "curl_close($ch);"
+      "curl_setopt($${1:ch}, CURLOPT_RETURNTRANSFER, 1);",
+      "$${1:response} = curl_exec($${1:ch});",
+      "curl_close($${1:ch});"
     ],
     "description": "WHMCS API: Domain Update Locking Status"
   },
   "WHMCSAPIDomainUpdateNameservers": {
     "prefix": "w-DomainUpdateNameservers",
     "body": [
-      "$ch = curl_init();",
-      "curl_setopt($ch, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
-      "curl_setopt($ch, CURLOPT_POST, 1);",
-      "curl_setopt($ch, CURLOPT_POSTFIELDS,",
+      "$${1:ch} = curl_init();",
+      "curl_setopt($${1:ch}, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
+      "curl_setopt($${1:ch}, CURLOPT_POST, 1);",
+      "curl_setopt($${1:ch}, CURLOPT_POSTFIELDS,",
       "  http_build_query(",
       "    array(",
       "      'action' => 'DomainUpdateNameservers',",
@@ -1573,19 +1573,19 @@
       "    )",
       "  )",
       ");",
-      "curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);",
-      "$response = curl_exec($ch);",
-      "curl_close($ch);"
+      "curl_setopt($${1:ch}, CURLOPT_RETURNTRANSFER, 1);",
+      "$${1:response} = curl_exec($${1:ch});",
+      "curl_close($${1:ch});"
     ],
     "description": "WHMCS API: Domain Update Nameservers"
   },
   "WHMCSAPIDomainUpdateWhoisInfo": {
     "prefix": "w-DomainUpdateWhoisInfo",
     "body": [
-      "$ch = curl_init();",
-      "curl_setopt($ch, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
-      "curl_setopt($ch, CURLOPT_POST, 1);",
-      "curl_setopt($ch, CURLOPT_POSTFIELDS,",
+      "$${1:ch} = curl_init();",
+      "curl_setopt($${1:ch}, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
+      "curl_setopt($${1:ch}, CURLOPT_POST, 1);",
+      "curl_setopt($${1:ch}, CURLOPT_POSTFIELDS,",
       "  http_build_query(",
       "    array(",
       "      'action' => 'DomainUpdateWhoisInfo',",
@@ -1598,19 +1598,19 @@
       "    )",
       "  )",
       ");",
-      "curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);",
-      "$response = curl_exec($ch);",
-      "curl_close($ch);"
+      "curl_setopt($${1:ch}, CURLOPT_RETURNTRANSFER, 1);",
+      "$${1:response} = curl_exec($${1:ch});",
+      "curl_close($${1:ch});"
     ],
     "description": "WHMCS API: Domain Update WHOIS Information"
   },
   "WHMCSAPIDomainWhois": {
     "prefix": "w-DomainWhois",
     "body": [
-      "$ch = curl_init();",
-      "curl_setopt($ch, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
-      "curl_setopt($ch, CURLOPT_POST, 1);",
-      "curl_setopt($ch, CURLOPT_POSTFIELDS,",
+      "$${1:ch} = curl_init();",
+      "curl_setopt($${1:ch}, CURLOPT_URL, 'https://www.example.com/includes/api.php');",
+      "curl_setopt($${1:ch}, CURLOPT_POST, 1);",
+      "curl_setopt($${1:ch}, CURLOPT_POSTFIELDS,",
       "  http_build_query(",
       "    array(",
       "      'action' => 'DomainWhois',",
@@ -1622,9 +1622,9 @@
       "    )",
       "  )",
       ");",
-      "curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);",
-      "$response = curl_exec($ch);",
-      "curl_close($ch);"
+      "curl_setopt($${1:ch}, CURLOPT_RETURNTRANSFER, 1);",
+      "$${1:response} = curl_exec($${1:ch});",
+      "curl_close($${1:ch});"
     ],
     "description": "WHMCS API: Domain WHOIS Information"
   }
