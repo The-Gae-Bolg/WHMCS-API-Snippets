@@ -6,8 +6,8 @@
   "publisher": "The-Gae-Bolg",
   "repository": {
     "type": "git",
-    "url": "",
-    "directory": ""
+    "url": "https://github.com/The-Gae-Bolg/WHMCS-API-Snippets",
+    "directory": "snippets"
   },
   "license": "MIT",
   "icon": "snippets/icon.png",
