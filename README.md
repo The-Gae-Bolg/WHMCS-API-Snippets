@@ -3,6 +3,12 @@
 > [!IMPORTANT]
 > This extension is not an official product of WHMCS. It is created for educational and collaborative purposes to enhance the user experience.
 
+## Description
+
+This is a set of snippets for Visual Studio Code that make developing using the WHMCS API easier. With these snippets, you can quickly access the different methods of the WHMCS API directly from your editor.
+
+![Basic use](How-use.gif)
+
 ## How to use
 
 1. Install the extension
@@ -177,3 +183,7 @@
 * [UpgradeProduct](https://developers.whmcs.com/api-reference/upgradeproduct/)
 * [ValidateLogin](https://developers.whmcs.com/api-reference/validatelogin/)
 * [WhmcsDetails](https://developers.whmcs.com/api-reference/whmcsdetails/)
+
+## License
+
+These snippets are provided under the MIT License. However, please note that WHMCS is a registered trademark. The use of these snippets in connection with WHMCS is subject to the policies and terms of use of WHMCS. Refer to the official WHMCS documentation for more information on the use of their brand and products.
